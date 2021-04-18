@@ -28,6 +28,7 @@ h1 {
 
 #menu {
     font-size: 110%;
+    letter-spacing: 4px;
 }
 
 #menu, #logo {
@@ -51,4 +52,22 @@ h1 {
 
 .active {
     border-bottom: 1px solid rgb(63, 131, 191);
+}
+
+/* Main Image */
+
+#main-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    object-fit: contain;
+    
+    background: url(../images/ABC.jpg) no-repeat center center;
 }
