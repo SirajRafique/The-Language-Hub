@@ -54,7 +54,7 @@ h1 {
     border-bottom: 1px solid rgb(63, 131, 191);
 }
 
-/* Main Image */
+/* Hero Image and Cover Text */
 
 #hero-outer {
     height: 700px;
@@ -62,6 +62,52 @@ h1 {
     overflow: hidden;
 
     position: relative;
+}
+
+#cover-text-test-your-english {
+        font-size: 100%;
+        font-family: Caveat, sans-serif;
+        text-transform: uppercase;
+        color: white;
+    
+        width: 300px;
+        height: 50px;
+        border-radius: 25px;
+    
+        padding-top: 10px;
+        padding-left: 10px;
+    
+        background-color: rgb(63, 131, 191);
+    
+        bottom: 400px;
+        right: 75px;
+    
+        position: absolute;
+    }
+
+#cover-text-book-now {
+    font-size: 100%;
+    font-family: Caveat, sans-serif;
+    text-transform: uppercase;
+    color: white;
+
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+
+    background-color: rgb(63, 131, 191);
+
+    bottom: 330px;
+    right: 75px;
+
+    position: absolute;
+}
+
+#cover-text-book-now:hover, #cover-text-test-your-english:hover {
+    font-size: 150%;
 }
 
 #hero-image {
