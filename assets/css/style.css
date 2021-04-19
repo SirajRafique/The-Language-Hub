@@ -107,7 +107,9 @@ h1 {
 }
 
 #cover-text-book-now:hover, #cover-text-test-your-english:hover {
-    font-size: 150%;
+    
+    animation-name: hero-zoom;
+    animation-fill-mode: forwards;
 }
 
 #hero-image {
