@@ -14,7 +14,7 @@ body {
 
 /* Logo and heading */
 
-h1,h2 {
+h1 {
     font-family: Caveat, sans-serif;
     color: rgb(63, 131, 191);   
 }
@@ -139,7 +139,6 @@ h1,h2 {
 
 #company-ethos {
     height: 600px;
-    background-color: #DCDCDC;
     width: 100%;
     overflow: hidden;
 
@@ -156,10 +155,11 @@ h1,h2 {
     content: url(../images/students.jpg);
     width: 700px;
     height: 400px;
+    border-radius: 50px;
 }
 
 #left-about {
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 60px;
     width: 33%;
     float:left;
@@ -167,6 +167,14 @@ h1,h2 {
     margin-left: 200px;
     margin-top: 100px;
     height: 350px;
+}
+
+#left-about > p, li {
+font-size: 120%;
+}
+
+#left-about > ul {
+    list-style-position: inside;
 }
 
 #left-about > h1 {
