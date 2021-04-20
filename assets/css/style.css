@@ -14,7 +14,7 @@ body {
 
 /* Logo and heading */
 
-h1 {
+h1,h2 {
     font-family: Caveat, sans-serif;
     color: rgb(63, 131, 191);   
 }
@@ -22,6 +22,7 @@ h1 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* Navigation links */
@@ -38,7 +39,7 @@ h1 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 #menu a {
@@ -133,3 +134,62 @@ h1 {
         transform: scale(1.1);
     }
 }
+
+/* Company ethos */
+
+#company-ethos {
+    height: 600px;
+    background-color: #DCDCDC;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+#right-about {
+    
+    float: right;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+#image { 
+    content: url(../images/students.jpg);
+    width: 700px;
+    height: 400px;
+}
+
+#left-about {
+    padding-top: 30px;
+    padding-left: 60px;
+    width: 33%;
+    float:left;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 100px;
+    height: 350px;
+}
+
+#left-about > h1 {
+    color: rgb(63, 131, 191);
+    font-size: 250%;
+}
+
+#left-about > h5 {
+    text-transform: uppercase;
+    color: white;
+    width: 225px;
+    height: 30px;
+    border-radius: 25px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+   
+    background-color: rgb(63, 131, 191);
+}
+
+#left-about>h5:hover {
+    animation-name: hero-zoom;
+    animation-fill-mode: forwards;
+}
+
+
