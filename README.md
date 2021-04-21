@@ -51,13 +51,58 @@ CSS
 
 ### Testing 
 
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+Contact form:
+Go to the "Contact Us" page
+Try to submit the empty form and verify that an error message about the required fields appears
+Try to submit the form with an invalid email address and verify that a relevant error message appears
+Try to submit the form with all inputs valid and verify that a success message appears.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+
+Right click mouse > inspect > go to lighthouse
+
+EXPECTED
+TESTING USING
+RESULT
+FIX
+
+Automated testing
+Validation services
+Website for testing 
+
+
+
 ### Deployment 
+
+1.	Log into GitHub
+2.	From the list of repositories on the screen select The Language Hub
+3.	From the menu items near the top of the page select settings
+4.	Scroll down to the GitHub pages section
+5.	Under source, click the drop-down menu labelled ‘None’ and select master branch 
+6.	On selecting master branch, the page is automatically refreshed, the website is now deployed
+7.	Scroll back down o the GitHub pages section to reference the link 
+
+How to run this project locally:
+
+1.	A GitHub account - create an account
+2.	Use the chrome browser
+3.	Install the Gitpod extensions for chrome
+4.	Restart the browser
+5.	Login to Gitpod with your Github account
+6.	Navigate to the project GitHub repository
+7.	Click the green Gitpod button top right-hand corner
+8.	This will trigger a new Gitpod workspace to be created from the code where you can work locally
+
 
 ### Credits
 
 **Content** 
 
-The hero image was used from pixabay.com
+The hero image and other images were used from pixabay.com
 
 **Acknowledgements**
 
