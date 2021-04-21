@@ -1,7 +1,7 @@
 # The Language Hub 
 
 This is a website for people of all ages looking to learn English online or face-to-face.  
-They can have their English tested and or book one of our courses with British Council accredited teacher. 
+They can have their English tested and or book one of our courses with a British Council accredited teacher. 
 
 
 ### UX
