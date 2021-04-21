@@ -74,9 +74,13 @@ Automated testing
 Validation services
 Website for testing 
 
+**Bugs discovered**
+
+I couldn't upload a hero image succesfully - the image was to big and wouldn't fit on the page. I tried changing the code, height, width, position etc, nothing would work. I then did some research and found out from the image properties that the pixels were to large and I had to compress the image. I found pixabay useful for this because it enables you to enter the image size. I uploaded the image, entered a height and width and it seemed to work. I still don't feel confident uploading pictures but with practice i should get better.  
 
 
 ### Deployment 
+--------------
 
 1.	Log into GitHub
 2.	From the list of repositories on the screen select The Language Hub
@@ -99,11 +103,18 @@ How to run this project locally:
 
 
 ### Credits
+-----------
 
-**Content** 
+**Content** / **Media**
 
-The hero image and other images were used from pixabay.com
+The hero image and other images for the website were sourced from pixabay.com
+
+**Code**
+
+Code for social media icons copied from Love Running project
+
+Code for logo copied/taken from google fonts
 
 **Acknowledgements**
 
-I received inspiration for this project from the mini project Love Running and my current part-time work as a teacher. 
+I received inspiration for this project from the mini project Love Running and my current part-time work as an English teacher. 
