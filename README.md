@@ -5,11 +5,11 @@ They can have their English tested and or book one of our courses with British C
 
 
 ### UX
-
+------
 
 **Client Stories:**
 
-1. As a visitor to the site I want to be able to navigate with ease.
+1. As a visitor to the site, I want to be able to navigate with ease.
 2. As a visitor, I want to be able to view the courses availble, the times and prices. 
 3. As a visitor, I want to be able to feel confident I'm in the right hands when it come to learning English.
 4. As a potential student, I want to know what other students think of the school and teaching. 
