@@ -18,12 +18,24 @@ They can have their English tested and or book one of our courses with British C
 7. As an Interested student, I want to be able to complete a contact form. 
 8. As an Interested student, I want to be able to follow the school on social media. 
 
-**Mock up**
+**Mock up:**
+
+Mock ups created as part of the design process can be found here 
+
+(https://balsamiq.cloud/sqnux27/ph73mzl/r2278)
+
+(../assets/images/New Wireframe1.png) 
+
+![GitHub Logo](/images/wireframe1.png)
+
+Ask how this works....
 
 ### Features
+------------
 
 
 ### Technologies used
+---------------------
 
 HTML / CSS
 
