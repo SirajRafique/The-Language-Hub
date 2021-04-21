@@ -10,10 +10,10 @@ They can have their English tested and or book one of our courses with British C
 **Client Stories:**
 
 1. As a visitor to the site, I want to be able to navigate with ease.
-2. As a visitor, I want to be able to view the courses availble, the times and prices. 
-3. As a visitor, I want to be able to feel confident I'm in the right hands when it come to learning English.
+2. As a visitor, I want to be able to view the courses available. 
+3. As a visitor, I want to be able to feel confident I'm in the right hands when it comes to learning English.
 4. As a potential student, I want to know what other students think of the school and teaching. 
-5. As a potential student, I want to view the different courses available, prices and how to make an enquiry. 
+5. As a potential student, I want to be able to book a course, view times and or make an enquiry. 
 6. As an Interested student, I want to be able to Immeadiately book a course. 
 7. As an Interested student, I want to be able to complete a contact form. 
 8. As an Interested student, I want to be able to follow the school on social media. 
@@ -33,11 +33,21 @@ Ask how this works....
 ### Features
 ------------
 
+1. The simplicity of the website, the fact that it is minimalistic and I've tried to make it less crowded should enable the user to navigate with ease. 
+2. The user is quickly able to view the courses by pressing the courses tab on the top right hand corner which will lead them to a new page and display the courses.
+3. A short description on the homepage as to why they should choose us should make them feel confident in using our services. 
+4. Having a testimonial on the homepage towards the bottom allows the students to read and see what other students have said about the language centre. 
+5. The user can book their course via the book button on the hero image or navigate to the booking page by clicking sign up on the top right. They can also view the courses tab which will bring up all the courses. They can make an inquiry by completing the contact form on the sign up page.
+6. The user can immeadiately navigate to the booking page via the book button on the hero image.  
+7. Contact form is available on the sign up page.
+8. There are social media links on each page at the bottom which the user can click on.
+
 
 ### Technologies used
 ---------------------
 
-HTML / CSS
+HTML 
+CSS
 
 ### Testing 
 
