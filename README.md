@@ -26,9 +26,7 @@ Mock ups created as part of the design process can be found here
 
 (../assets/images/New Wireframe1.png) 
 
-![GitHub Logo](/images/wireframe1.png)
-
-Ask how this works....
+or see images section for mock ups
 
 ### Features
 ------------
@@ -78,6 +76,9 @@ Website for testing
 
 I couldn't upload a hero image succesfully - the image was to big and wouldn't fit on the page. I tried changing the code, height, width, position etc, nothing would work. I then did some research and found out from the image properties that the pixels were to large and I had to compress the image. I found pixabay useful for this because it enables you to enter the image size. I uploaded the image, entered a height and width and it seemed to work. I still don't feel confident uploading pictures but with practice i should get better.  
 
+Still having trouble with pictures - testimnial section was an issue sorting out (see footer bug image)
+
+When creating a link for the find your course button the text was highlighted blue - found out that i already had a class named active so i had to rename the class add to css and style. 
 
 ### Deployment 
 --------------
@@ -107,7 +108,7 @@ How to run this project locally:
 
 **Content** / **Media**
 
-The hero image and other images for the website were sourced from pixabay.com
+The images were sourced from pixabay.com
 
 Testimonial image link: https://pixabay.com/photos/concentration-curiosity-curious-16032/
 Why learn English image link: https://pixabay.com/photos/students-computers-laptops-smiling-1807505/
