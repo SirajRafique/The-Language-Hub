@@ -118,7 +118,7 @@ h1 {
     width: 100%;
     background: url(../images/teacher.jpg) no-repeat center center; 
 
-    /* animates zoom effect on loading page */
+/* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -151,7 +151,7 @@ h1 {
     margin-top: 100px;
 }
 
-#image { 
+#image-students { 
     content: url(../images/students.jpg);
     width: 700px;
     height: 400px;
@@ -184,14 +184,13 @@ font-size: 120%;
 
 #left-about > h5 {
     text-transform: uppercase;
+    text-align: center;
     color: white;
-    width: 225px;
+    width: 230px;
     height: 30px;
     border-radius: 25px;
+    padding-top: 15px;
 
-    padding-top: 10px;
-    padding-left: 10px;
-   
     background-color: rgb(63, 131, 191);
 }
 
@@ -199,6 +198,32 @@ font-size: 120%;
     animation-name: hero-zoom;
     animation-fill-mode: forwards;
 }
+
+/* Testimonial */
+
+#testimonial {
+  height: 300px;
+  width: 100%;
+  overflow: none;
+  }
+  
+#left-about2 {
+    content: url(../images/a\ girl.jpg);
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    max-width: 20%;
+}
+
+
+#right-about2 {
+    float: right;
+    width: 40%;
+    text-align: center;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+  
 
 /* footer */
 
@@ -222,4 +247,5 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
 

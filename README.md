@@ -109,6 +109,10 @@ How to run this project locally:
 
 The hero image and other images for the website were sourced from pixabay.com
 
+Testimonial image link: https://pixabay.com/photos/concentration-curiosity-curious-16032/
+Why learn English image link: https://pixabay.com/photos/students-computers-laptops-smiling-1807505/
+Hero image link: https://pixabay.com/photos/teacher-property-plant-and-teaching-3765909/
+
 **Code**
 
 Code for social media icons copied from Love Running project
