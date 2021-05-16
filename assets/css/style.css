@@ -250,4 +250,28 @@ footer {
     color: #3a3a3a;
 }
 
+  /* Courses - Coloumn Cards */
 
+.cardContainer:before, .cardContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+.card {
+    float: left;
+    width: calc(25% - 20px);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 100px;
+ }
+ 
+ .card h2 { 
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+ }
+  
