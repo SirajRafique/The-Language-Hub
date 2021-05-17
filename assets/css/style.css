@@ -225,32 +225,8 @@ font-size: 120%;
     margin-right: 300px;
     margin-top: 50px;
 }
-  
 
-/* footer */
-
-footer {
-    height: 150px;
-
-}
-
-.social-networks {
-    text-align: center;
-
-}
-
-.social-networks>li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
-  /* Courses - Coloumn Cards */
+  /* Courses Page - Coloumn Cards */
 
 .cardContainer:before, .cardContainer:after {
     content: "";
@@ -278,4 +254,83 @@ footer {
  .card:hover {
     animation-name: hero-zoom;
     animation-fill-mode: forwards;
+}
+
+ /* Sign up page */
+
+.signupcontainer::before, #start-your-test::before {
+    
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#start-your-test {
+    margin-left: 100px;
+    font-family: Caveat, sans-serif;
+    color: rgb(0, 0, 0);  
+    font-size: 2.5em;
+}
+
+.test-your-english-container {
+    margin-left: 100px;
+    border: 3px solid green;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 50%;
+  }
+  #sign-up {
+      padding-top: 175px;
+  }
+
+ input[type=text] {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  /* Style the submit button */
+
+  input[type=submit] {
+    background-color: rgb(0, 204, 68);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    animation-name: hero-zoom;
+    animation-fill-mode: forwards
+  }
+
+  #links {
+      padding: 5%;
+  }  
+  
+  /* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
