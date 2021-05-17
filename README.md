@@ -116,7 +116,7 @@ Hero image link: https://pixabay.com/photos/teacher-property-plant-and-teaching-
 
 **Code**
 
-Code for social media icons copied from Love Running project
+Colors for the courses taken from: https://www.w3schools.com/colors/colors_picker.asp
 
 Code for logo copied/taken from google fonts
 
