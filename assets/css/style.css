@@ -275,3 +275,7 @@ footer {
     color: white;
  }
   
+ .card:hover {
+    animation-name: hero-zoom;
+    animation-fill-mode: forwards;
+}
