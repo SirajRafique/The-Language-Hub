@@ -118,13 +118,15 @@ h1 {
     width: 100%;
     background: url(../images/teacher.jpg) no-repeat center center; 
 
-/* animates zoom effect on loading page */
+/* Animates zoom effect on loading page */
+
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero image */
+/* The level of zoom for hero image */
+
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -192,7 +194,7 @@ font-size: 120%;
     background-color: rgb(63, 131, 191);
 }
 
-.active1 {
+.active1, .active2, .active3 {
     color: white;
 }
 
