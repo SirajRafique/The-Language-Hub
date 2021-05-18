@@ -33,28 +33,44 @@
         </nav>
     </header>
 
-    <section id="sign-up">
-   <div>
-       <h1 id="start-your-test">Test your English</h1>
-</div>
-    <div class="test-your-english-container">
-        <form action="action_page.php">
-      
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname">
-      
-          <label for="country">Country</label>
-          <input type="text" id="country" name="country" placeholder="Where are you from?">
-      
+    <section class="form-test-your-english">
+        <form method="POST" action="https://formdump.languagehub.com/" class="signup-form1">
+            <h2>Test Your English</h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
+            
+            <label for="course">Country</label>
+            <input class="text-input" type="course" id="course" name="course" required>
+            
+            <input class="join-button" type="submit" value="Start">
+        </form>
+    </section>
 
-    <input type="submit" value="Start">
-
-  </form>
-</div>
+<section class="form-book-your-course">
+    <form method="POST" action="https://formdump.languagehub.com/" class="signup-form2">
+        <h2>Sign Up and Book Your Course</h2>
+        <label for="fname">First Name</label>
+        <input class="text-input" id="fname" name="first_name" type="text" required>
+        
+        <label for="lname">Last Name</label>
+        <input class="text-input" id="lname" name="last_name" type="text" required>
+        
+        <label for="email">Email Address</label>
+        <input class="text-input" type="email" id="email" name="email_address" required>
+        
+        <label for="course">Choose Your Course</label>
+        <input class="text-input" type="course" id="course" name="course" required>
+        
+        <input class="join-button" type="submit" value="Book">
+    </form>
 </section>
+
 
 <section id="links">
     <footer>

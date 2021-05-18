@@ -125,7 +125,7 @@ h1 {
     animation-fill-mode: forwards;
 }
 
-/* The level of zoom for hero image */
+/* Zoom for hero image */
 
 @keyframes hero-zoom {
     from {
@@ -258,70 +258,127 @@ font-size: 120%;
     animation-fill-mode: forwards;
 }
 
- /* Sign up page */
+ /* Sign up page - test your english */
 
-.signupcontainer::before, #start-your-test::before {
-    
-    clear: both;
-    content: "";
-    display: table;
+ .form-test-your-english {
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
 }
 
-#start-your-test {
-    margin-left: 100px;
-    font-family: Caveat, sans-serif;
-    color: rgb(0, 0, 0);  
-    font-size: 2.5em;
-}
-
-.test-your-english-container {
-    margin-left: 100px;
-    border: 3px solid rgb(63, 131, 191);
-    background-color: #f2f2f2;
-    padding: 10px;
-    width: 50%;
-  }
-  #sign-up {
-      padding-top: 175px;
-    
-  }
-
- input[type=text] {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
-  /* Style the submit button */
-
-  input[type=submit] {
-    background-color: rgb(63, 131, 191);
-    color: white;
-    padding: 15px 30px;
-    border: none;
+.signup-form1 {
+    margin: 150px 10% 0 17.5%;
+    color: black;
+    background-color: rgb(140, 140, 140);
+    max-width: 900px;
+    position: absolute;
+    left: 6%;    
+    padding: 30px;
     border-radius: 10px;
+}
+
+.signup-form1 > h2 {
+    color: black;
+    font-family: Caveat, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    color: black;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #fafafa;
+    border-radius: 5px;
+}
+
+.text-input:hover {
+    border-color: #629aee;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100%;
+    background-color: rgb(63, 131, 191);
+    color: #fafafa;
+    display: block;
     float: right;
-    font-size: large;
-  }
-  
-  input[type=submit]:hover {
+}
+
+.join-button:hover {
     animation-name: hero-zoom;
-    animation-fill-mode: forwards
-  }
+    animation-fill-mode: forwards;
+}
 
-  #links {
-      padding: 5%;
-    
-  }  
-  
-  /* footer */
+ /* Sign up page - book a course */
 
-footer {
+ .form-book-your-course {
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.signup-form2 {
+    margin: 150px 10% 0 17.5%;
+    color: black;
+    background-color: rgb(140, 140, 140);
+    max-width: 900px;
+    position: absolute;
+    left: 6%;    
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.signup-form2 > h2 {
+    color: black;
+    font-family: Caveat, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    color: black;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #fafafa;
+    border-radius: 5px;
+}
+
+.text-input:hover {
+    border-color: #629aee;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100%;
+    background-color: rgb(63, 131, 191);
+    color: #fafafa;
+    display: block;
+    float: right;
+}
+
+.join-button:hover {
+    animation-name: hero-zoom;
+    animation-fill-mode: forwards;
+}
+
+ /* footer */
+
+ footer {
     height: 150px;
 }
 
