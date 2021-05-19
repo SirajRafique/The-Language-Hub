@@ -230,7 +230,7 @@ font-size: 120%;
 
   /* Courses Page - Coloumn Cards */
 
-.cardContainer:before, .cardContainer:after {
+.cardcontainer:before, .cardcontainer:after {
     content: "";
     display: table;
     clear: both;
@@ -268,7 +268,7 @@ font-size: 120%;
 }
 
 .signup-form1 {
-    margin: 150px 10% 0 17.5%;
+    margin: 100px 10% 0 17.5%;
     color: black;
     background-color: rgb(140, 140, 140);
     max-width: 900px;
@@ -327,7 +327,7 @@ font-size: 120%;
 }
 
 .signup-form2 {
-    margin: 150px 10% 0 17.5%;
+    margin: 100px 10% 0 17.5%;
     color: black;
     background-color: rgb(140, 140, 140);
     max-width: 900px;
@@ -395,4 +395,62 @@ font-size: 120%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* Media queries */
+
+/* Home */
+
+/* For larger to medium screen size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    
+
+   #hero-outer {
+       width: 50%;
+       height: 1200px;
+       margin: auto;
+   } 
+    
+    #company-ethos {
+        width: 50%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #left-about { 
+        margin-left: 5%;
+
+    }
+    
+    #image-students {
+        float: right;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+}
+
+/* Courses */
+
+/* For larger to medium screen size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+    .card {
+            width: 65%;
+            margin-left: 15%;
+    }
+
+}
+
+/* Sign Up */
+
+/* For larger to medium screen size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+    .signup-form1, .signup-form2 {
+        width: 65%;
+        margin-left: 100px;
+    }
+
 }
