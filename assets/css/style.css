@@ -145,12 +145,7 @@ h1 {
     overflow: hidden;
 
     position: relative;
-}
-#right-about {
     
-    float: right;
-    margin-right: 200px;
-    margin-top: 100px;
 }
 
 #image-students { 
@@ -158,6 +153,7 @@ h1 {
     width: 700px;
     height: 400px;
     border-radius: 50px;
+    margin-top: 110px;
 }
 
 #left-about {
@@ -205,20 +201,12 @@ font-size: 120%;
 
 /* Testimonial */
 
-#testimonial {
-  height: 300px;
-  width: 100%;
-  overflow: none;
-  }
-  
 #left-about2 {
     content: url(../images/a\ girl.jpg);
-    border-radius: 50%;
-    margin-left: 400px;
+    margin-left: 300px;
     margin-bottom: 50px;
     max-width: 20%;
 }
-
 
 #right-about2 {
     float: right;
@@ -233,7 +221,7 @@ font-size: 120%;
 .cardcontainer:before, .cardcontainer:after {
     content: "";
     display: table;
-    clear: both;
+    clear: both; 
  }
 
 .card {
@@ -265,7 +253,7 @@ font-size: 120%;
     background-size: cover;
     background-position: center;
     height: 600px;
-}
+} 
 
 .signup-form1 {
     margin: 100px 10% 0 17.5%;
@@ -405,29 +393,23 @@ font-size: 120%;
 @media screen and (max-width: 1200px) {
     
 
-   #hero-outer {
-       width: 50%;
-       height: 1200px;
-       margin: auto;
-   } 
-    
-    #company-ethos {
-        width: 50%;
-        height: 1200px;
-        margin: 0 auto;
+#image-students {
+
+        width: 300px;
+        height: 300px;
+        margin-top: 150px;
     }
 
-    #left-about { 
-        margin-left: 5%;
-
-    }
+#right-about2 {
     
-    #image-students {
-        float: right;
-        width: 50px;
-        height: 50px;
-        border-radius: 50px;
-    }
+    width: 50%;
+    
+}
+
+#left-about2 {
+    padding-top: 10%;
+    padding-left: 15%;  
+}
 
 }
 
