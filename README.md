@@ -63,7 +63,11 @@ Mobile Performance
 
 The performance on the mobile is 82 because I have some issues with the images, they are static. I'm aware of this and trying to figure out how I can change this. I think the images are not responsive and absolute. 
 
+2. W3C Validator 
 
+No error or warning to show
+
+![w3c validator](https://user-images.githubusercontent.com/80712910/119045176-050db100-b9b3-11eb-9bfd-326b4dee9f1b.PNG)
 
 
 All navigation links checked and they work > Logo reverts user back to homepaage. The nav links home, courses and sign up work. 
