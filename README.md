@@ -1,5 +1,5 @@
 # The Language Hub 
-
+--------------------------
 This is a website for people of all ages looking to learn English online or face-to-face.  
 They can have their English tested and or book one of our courses with a British Council accredited teacher. 
 
@@ -54,8 +54,11 @@ Websites used to validate my code are:
 1. Lighthouse > to identify and fix common problems affecting my sites performance, accessibility and user experience. By right clicking the mouse choosing inspect and viewing elements I was able to view and edit my code before making permanent changes.  
 
 Desktop Performance
+
 ![Desktop Performance](https://user-images.githubusercontent.com/80712910/119034293-1ef4c700-b9a6-11eb-84e7-bb4d1ad37833.PNG)
+
 Mobile Performance
+
 ![Mobile performance](https://user-images.githubusercontent.com/80712910/119034873-cd007100-b9a6-11eb-8af8-7962cfbbbf98.PNG)
 
 The performance on the mobile is 82 because I have some issues with the images, they are static. I'm aware of this and trying to figure out how I can change this. I think the images are not responsive and absolute. 
@@ -68,28 +71,28 @@ The book now and test your english buttons work.
 
 Checking my user stories
 
-* * 1. As a visitor to the site, I want to be able to navigate with ease.
+1. As a visitor to the site, I want to be able to navigate with ease.
 
 ![Navigation links](https://user-images.githubusercontent.com/80712910/119036001-27e69800-b9a8-11eb-9226-25eacaaa07af.PNG)
 
-* * 2. As a visitor, I want to be able to view the courses available. 
+2. As a visitor, I want to be able to view the courses available. 
 
 They can do this by clicking on the courses tab.
 
-* * 3. As a visitor, I want to be able to feel confident I'm in the right hands when it comes to learning English.
+3. As a visitor, I want to be able to feel confident I'm in the right hands when it comes to learning English.
 
 ![testimonial](https://user-images.githubusercontent.com/80712910/119036437-a5120d00-b9a8-11eb-855d-6f2b4d1db98f.PNG)
 
-* * 4. As a potential student, I want to know what other students think of the school and teaching. 
+4. As a potential student, I want to know what other students think of the school and teaching. 
 
 See above and social media links below
 
-* * 5. As a potential student, I want to be able to book a course, view times and or make an enquiry. 
+5. As a potential student, I want to be able to book a course, view times and or make an enquiry. 
 
 ![sign up](https://user-images.githubusercontent.com/80712910/119036696-f15d4d00-b9a8-11eb-8763-734acc80e1c2.PNG)
 
 
-* * 6. As an Interested student, I want to be able to Immeadiately book a course. 
+6. As an Interested student, I want to be able to Immeadiately book a course. 
 
 ![book now](https://user-images.githubusercontent.com/80712910/119036683-eaced580-b9a8-11eb-9ed2-c9b6dcdd2164.PNG)
 
