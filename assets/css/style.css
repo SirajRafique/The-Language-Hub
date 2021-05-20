@@ -436,3 +436,21 @@ font-size: 120%;
     }
 
 }
+
+/* For smaller screen size from 600px and up */
+@media only screen and (max-width: 600px) {
+
+#menu {
+    line-height: 100px;
+    padding-top: 80px;
+    margin-right: 80px;
+}
+
+#logo {
+    margin-left: 120px;
+}
+
+
+
+
+}
