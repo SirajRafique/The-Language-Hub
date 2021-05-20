@@ -176,9 +176,10 @@ font-size: 120%;
     list-style-position: inside;
 }
 
-#left-about > h1 {
+#left-about > h2 {
     color: rgb(63, 131, 191);
-    font-size: 250%;
+    font-size: 60px;
+    font-family: Caveat, sans-serif;
 }
 
 #left-about > h5 {
@@ -522,6 +523,9 @@ font-size: 120%;
     max-width: 50%;
 }
 
+#left-about > h2 {
+    font-size: 30px;
+}
 .signup-form1, .signup-form2 {
     width: 65%;
     margin-left: 20px;
