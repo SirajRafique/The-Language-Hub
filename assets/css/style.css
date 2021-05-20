@@ -450,7 +450,35 @@ font-size: 120%;
     margin-left: 120px;
 }
 
+#left-about {
+    width: 70%;
+    float: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
+#left-about > h5 {
+    margin-left: 80px;
+}
 
+#image-students {
+    display: none;
+}
+
+#right-about2 {
+    margin-top: 0px;
+    float: none;
+    margin-right: auto;
+    margin-left: 120px;
+}
+
+#company-ethos {
+    height: 500px;
+}
+
+#left-about2 {
+    margin-left: 50px;
+    max-width: 50%;
+}
 
 }
