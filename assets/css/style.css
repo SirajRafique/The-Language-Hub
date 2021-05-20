@@ -392,24 +392,38 @@ font-size: 120%;
 /* For larger to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     
-
-#image-students {
-
-        width: 300px;
-        height: 300px;
-        margin-top: 150px;
+    #left-about {
+        width: 80%;
+        float: none;
+        margin-left: 50px;
+        margin-top: 20px;
     }
-
-#right-about2 {
     
-    width: 50%;
+    #left-about > h5 {
+        margin-left: 150px;
+        margin-top: 30px;
+    }
     
-}
-
-#left-about2 {
-    padding-top: 10%;
-    padding-left: 15%;  
-}
+    #image-students {
+        display: none;
+    }
+    
+    #right-about2 {
+        margin-top: 0px;
+        float: none;
+        margin-right: auto;
+        margin-left: 220px;
+    }
+    
+    #company-ethos {
+        height: 500px;
+    }
+    
+    #left-about2 {
+        margin-left: 180px;
+        max-width: 50%;
+        margin-top: 20px;
+    }
 
 }
 
@@ -437,28 +451,38 @@ font-size: 120%;
 
 }
 
-/* For smaller screen size from 600px and up */
-@media only screen and (max-width: 600px) {
+/* For smaller screen size from 760px wide and down */
+@media only screen and (max-width: 760px) {
 
 #menu {
     line-height: 100px;
     padding-top: 80px;
     margin-right: 80px;
+    letter-spacing: 0px;
+}
+#menu > li {
+    margin-right: 15px;
+    
 }
 
-#logo {
-    margin-left: 120px;
+#cover-text-test-your-english {
+    width: 200px;
+}
+
+#cover-text-book-now {
+    width: 200px;
+    text-align: center;
 }
 
 #left-about {
-    width: 70%;
+    width: 60%;
     float: none;
     margin-left: 20px;
     margin-top: 20px;
 }
 
 #left-about > h5 {
-    margin-left: 80px;
+    margin-left: 5px;
 }
 
 #image-students {
@@ -466,19 +490,24 @@ font-size: 120%;
 }
 
 #right-about2 {
-    margin-top: 0px;
+    margin-top: 100px;
     float: none;
     margin-right: auto;
     margin-left: 120px;
 }
 
 #company-ethos {
-    height: 500px;
+    height: 700px;
 }
 
 #left-about2 {
-    margin-left: 50px;
+    margin-left: 100px;
     max-width: 50%;
+}
+
+.signup-form1, .signup-form2 {
+    width: 65%;
+    margin-left: 20px;
 }
 
 }
