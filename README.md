@@ -2,6 +2,7 @@
 --------------------------
 This is a website for people of all ages looking to learn English online or face-to-face.  
 They can have their English tested and or book one of our courses with a British Council accredited teacher. 
+The website has been kept simple with the available courses outlined on the courses pages. The primary goal of the website is to have an online presence for students that I already teach face to face and to gain further business via word of mouth/recommendation. Anyone visiting will quickly be able to choose a course, book and make contact.  
 
 
 ### UX
@@ -20,16 +21,21 @@ They can have their English tested and or book one of our courses with a British
 
 **Mock up:**
 
-Mock ups created as part of the design process can be found here 
+Mock ups created as part of the design process 
 
-(https://balsamiq.cloud/sqnux27/ph73mzl/r2278)
+![New Wireframe 1](https://user-images.githubusercontent.com/80712910/119227121-4b265a00-bb04-11eb-9191-daa85e68efe1.png)
 
-(../assets/images/New Wireframe1.png) 
+![New Wireframe 2](https://user-images.githubusercontent.com/80712910/119227122-4bbef080-bb04-11eb-8154-62996e349452.png)
 
-or see images section for mock ups
+![New Wireframe 3](https://user-images.githubusercontent.com/80712910/119227123-4cf01d80-bb04-11eb-8cbf-4950572bba6a.png)
+
 
 ### Features
 ------------
+
+All pages have a responsive navigation bar top right and a logo top left. All pages also have a footer with social media icons linking to the social media pages. 
+
+
 
 1. The simplicity of the website, the fact that it is minimalistic and I've tried to make it less crowded should enable the user to navigate with ease. 
 2. The user is quickly able to view the courses by pressing the courses tab on the top right hand corner which will lead them to a new page and display the courses.
@@ -38,14 +44,16 @@ or see images section for mock ups
 5. The user can book their course via the book button on the hero image or navigate to the booking page by clicking sign up on the top right. They can also view the courses tab which will bring up all the courses. They can make an inquiry by completing the contact form on the sign up page.
 6. The user can immeadiately navigate to the booking page via the book button on the hero image.  
 7. Contact form is available on the sign up page.
-8. There are social media links on each page at the bottom which the user can click on.
+8. There are social media links on each page at the bottom which the user can click on.  
 
 
 ### Technologies used
 ---------------------
 
-HTML 
-CSS
+HTML and CSS programming languages 
+
+Google Fonts to style the website fonts
+
 
 ### Testing 
 
@@ -128,38 +136,30 @@ Email error message
 ![email error](https://user-images.githubusercontent.com/80712910/119037532-fec70700-b9a9-11eb-98cd-0c0fcb8fea18.PNG)
 
 
-
-
-
-EXPECTED
-TESTING USING
-RESULT
-FIX
-
-Automated testing
-Validation services
-Website for testing 
-
 **Bugs discovered**
 
 I couldn't upload a hero image succesfully - the image was to big and wouldn't fit on the page. I tried changing the code, height, width, position etc, nothing would work. I then did some research and found out from the image properties that the pixels were to large and I had to compress the image. I found pixabay useful for this because it enables you to enter the image size. I uploaded the image, entered a height and width and it seemed to work. I still don't feel confident uploading pictures but with practice i should get better.  
 
-Still having trouble with pictures - testimnial section was an issue sorting out (see footer bug image)
+Still having trouble with pictures. The Hero Image is static and not absolute - there is an issue with the responsiveness. I can't get the image to shrink when using a smaller screen. 
 
-When creating a link for the find your course button the text was highlighted blue - found out that i already had a class named active so i had to rename the class add to css and style. 
+Below is another issue which I fixed by resizing the image. 
+
+![footer bug](https://user-images.githubusercontent.com/80712910/119226967-a277fa80-bb03-11eb-82e1-cbcfc56b374a.PNG)
+
+When creating a link for the find your course button the text was highlighted blue - found out that I already had a class named active so I had to rename the class and then add to css and style. 
 
 ### Deployment 
 --------------
 
-1.	Log into GitHub
-2.	From the list of repositories on the screen select The Language Hub
-3.	From the menu items near the top of the page select settings
-4.	Scroll down to the GitHub pages section
-5.	Under source, click the drop-down menu labelled ‘None’ and select master branch 
-6.	On selecting master branch, the page is automatically refreshed, the website is now deployed
-7.	Scroll back down o the GitHub pages section to reference the link 
+1.	First, Log into GitHub: Where the world builds software
+2.	Once logged in, find repositories - could be on the left hand side or at the top. From the list, choose _The Language Hub_.
+3.	From the menu items at the top of the page select settings.
+4.	Scroll down to the GitHub pages section.
+5.	Under source, click the drop-down menu labelled ‘None’ and select master branch. 
+6.	On selecting master branch, the page is automatically refreshed, the website is now deployed.
+7.	Scroll back down to the GitHub pages section to reference/retrieve the link. 
 
-How to run this project locally:
+How to run this project locally and to clone the project into Gitpod:
 
 1.	A GitHub account - create an account
 2.	Use the chrome browser
@@ -188,6 +188,14 @@ Colors for the courses taken from: https://www.w3schools.com/colors/colors_picke
 
 Code for logo copied/taken from google fonts
 
+The CSS code for the footer and sign up page were originally taken from the love running project and then edited. 
+
+Deployment section in README taken from README template and AJGreaves and edited. 
+
 **Acknowledgements**
 
 I received inspiration for this project from the mini project Love Running and my current part-time work as an English teacher. 
+
+Disclaimer
+
+The website is for educational purposes only! 
