@@ -1,8 +1,12 @@
 # The Language Hub 
 --------------------------
+
+Click [Here]( https://sirajrafique.github.io/The-Language-Hub/) to view deployed website. 
+
 This is a website for people of all ages looking to learn English online or face-to-face.  
 They can have their English tested and or book one of our courses with a British Council accredited teacher. 
-The website has been kept simple with the available courses outlined on the courses pages. The primary goal of the website is to have an online presence for students that I already teach face to face and to gain further business via word of mouth/recommendation. Anyone visiting will quickly be able to choose a course, book and make contact.  
+The website has been kept simple with the available courses outlined on the courses pages. 
+The primary goal of the website is to have an online presence for students that I already teach face to face and to gain further business via word of mouth/recommendation. Anyone visiting will quickly be able to choose a course, book and make contact.  
 
 
 ### UX
