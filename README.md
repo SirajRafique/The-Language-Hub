@@ -102,11 +102,13 @@ How to run this project locally and to clone the project into Gitpod:
 
 **Content** / **Media**
 
-The images were sourced from pixabay.com
+The Images were sourced from pixabay.com
 
-Testimonial image link: https://pixabay.com/photos/concentration-curiosity-curious-16032/
-Why learn English image link: https://pixabay.com/photos/students-computers-laptops-smiling-1807505/
-Hero image link: https://pixabay.com/photos/teacher-property-plant-and-teaching-3765909/
+Testimonial Image - Click [Here](https://pixabay.com/photos/concentration-curiosity-curious-16032/) 
+
+Why learn English Image - Click [Here](https://pixabay.com/photos/students-computers-laptops-smiling-1807505/)
+
+Hero Image - Click [Here](https://pixabay.com/photos/teacher-property-plant-and-teaching-3765909/)
 
 **Code**
 
