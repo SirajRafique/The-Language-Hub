@@ -21,13 +21,7 @@ The website has been kept simple with the available courses outlined on the cour
 
 **Mock up:**
 
-Mock ups created as part of the design process 
-
-![New Wireframe 1](https://user-images.githubusercontent.com/80712910/119227121-4b265a00-bb04-11eb-9191-daa85e68efe1.png)
-
-![New Wireframe 2](https://user-images.githubusercontent.com/80712910/119227122-4bbef080-bb04-11eb-8154-62996e349452.png)
-
-![New Wireframe 3](https://user-images.githubusercontent.com/80712910/119227123-4cf01d80-bb04-11eb-8cbf-4950572bba6a.png)
+Mock ups created as part of the design process - Click [here] (https://github.com/SirajRafique/The-Language-Hub/blob/f2edbe02132ee3626a7a2772112b461b1d6809bf/Wireframes)
 
 
 ### Features
