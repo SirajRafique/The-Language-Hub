@@ -26,9 +26,6 @@ CSS code passed through the official (Jigsaw) validator with no issues
 
 
 
-
-Click [Here]() to see how I checked my user stories. 
-
 Checking my user stories
 
 1. As a visitor to the site, I want to be able to navigate with ease.
