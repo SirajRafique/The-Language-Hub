@@ -57,55 +57,9 @@ Google Fonts to style the website fonts
 
 Testing information can be found here [Testing.md](https://github.com/SirajRafique/The-Language-Hub/blob/2ec2066115b5f0714ee6373d4d10b968a0cc2c1a/Testing.md)
 
-All navigation links checked and they work > Logo reverts user back to homepaage. The nav links home, courses and sign up work. 
-The book now and test your english buttons work. 
+Including client stories testing. 
 
-Checking my user stories
-
-1. As a visitor to the site, I want to be able to navigate with ease.
-
-![Navigation links](https://user-images.githubusercontent.com/80712910/119036001-27e69800-b9a8-11eb-9226-25eacaaa07af.PNG)
-
-2. As a visitor, I want to be able to view the courses available. 
-
-They can do this by clicking on the courses tab.
-
-3. As a visitor, I want to be able to feel confident I'm in the right hands when it comes to learning English.
-
-![testimonial](https://user-images.githubusercontent.com/80712910/119036437-a5120d00-b9a8-11eb-855d-6f2b4d1db98f.PNG)
-
-4. As a potential student, I want to know what other students think of the school and teaching. 
-
-See above and social media links below
-
-5. As a potential student, I want to be able to book a course, view times and or make an enquiry. 
-
-![sign up](https://user-images.githubusercontent.com/80712910/119036696-f15d4d00-b9a8-11eb-8763-734acc80e1c2.PNG)
-
-
-6. As an Interested student, I want to be able to Immeadiately book a course. 
-
-![book now](https://user-images.githubusercontent.com/80712910/119036683-eaced580-b9a8-11eb-9ed2-c9b6dcdd2164.PNG)
-
-7. As an Interested student, I want to be able to complete a contact form. 
-
-
-![sign up](https://user-images.githubusercontent.com/80712910/119036696-f15d4d00-b9a8-11eb-8763-734acc80e1c2.PNG)
-
-8. As an Interested student, I want to be able to follow the school on social media. 
-
-![social media links](https://user-images.githubusercontent.com/80712910/119037048-6761b400-b9a9-11eb-98c1-fb63ba1e6f63.PNG)
-
-
-Contact form:
-
-Error message when trying to submit form
-
-![empty form](https://user-images.githubusercontent.com/80712910/119037242-a132ba80-b9a9-11eb-99a3-bb29ac3e2aa1.PNG)
-
-Email error message
-
-![email error](https://user-images.githubusercontent.com/80712910/119037532-fec70700-b9a9-11eb-98cd-0c0fcb8fea18.PNG)
+All navigation links checked and they work.  
 
 
 **Bugs discovered**
