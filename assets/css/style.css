@@ -78,7 +78,7 @@ h1 {
 	padding: 60px 10px 0px 10px;
 	
 
-	background-color: rgba(241, 109, 107, .7);
+	background-color: rgb(63, 131, 191, 0.6);
 
 	border-radius: 25px;
 
@@ -115,40 +115,37 @@ h1 {
 
 .company-ethos {
 	height: 600px;
-	width: 100%;
-	overflow: hidden;
-	position: relative;
+
 }
 
 .image-students {
 	content: url(../images/students.jpg);
-	width: 700px;
-	height: 400px;
-	border-radius: 50px;
-	margin-top: 110px;
+	width: 30%;
+    float: right;
+	margin-top: 75px;
+	margin-right: 250px;
+	border-radius: 10%;
+
 }
 
 .left-about {
-	padding-top: 10px;
-	padding-left: 60px;
-	width: 33%;
-	float: left;
-	background-color: white;
-	margin-left: 200px;
-	margin-top: 100px;
-	height: 350px;
+	
+	width: 40%;
+    float: left;
+	margin-left: 250px;
+	margin-top: 50px;
+	
 }
 
-.left-about>p,
-li {
+.left-about > p, li {
 	font-size: 120%;
 }
 
-.left-about>ul {
+.left-about > ul {
 	list-style-position: inside;
 }
 
-.left-about>h2 {
+.left-about > h2 {
 	color: rgb(63, 131, 191);
 	font-size: 60px;
 	font-family: Caveat, sans-serif;
@@ -157,10 +154,12 @@ li {
 .left-about>h5 {
 	text-transform: uppercase;
 	text-align: center;
-	width: 230px;
-	height: 30px;
+	font-size: 120%;
+	width: 400px;
+	height: 40px;
 	border-radius: 25px;
-	padding-top: 15px;
+	padding-top: 20px;
+	
 	background-color: rgb(63, 131, 191);
 }
 
@@ -168,6 +167,7 @@ li {
 .active2,
 .active3 {
 	color: white;
+	text-decoration: none;
 }
 
 .left-about>h5:hover {
