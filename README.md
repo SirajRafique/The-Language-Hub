@@ -112,13 +112,13 @@ Hero Image - Click [Here](https://pixabay.com/photos/teacher-property-plant-and-
 
 **Code**
 
-Colors for the courses taken from: https://www.w3schools.com/colors/colors_picker.asp
+Colors for the courses taken from [Here](https://www.w3schools.com/colors/colors_picker.asp)
 
-Code for logo copied/taken from google fonts
+Logo taken from [Google Fonts](https://fonts.google.com/)
 
-The CSS code for the footer and sign up page were originally taken from the love running project and then edited. 
+The CSS code for the footer and sign up page were originally taken from the Love Running project and then edited. 
 
-Deployment section in README taken from README template and AJGreaves and edited. 
+Text for Deployment section in README taken from README template and then edited/personalised.
 
 **Acknowledgements**
 
