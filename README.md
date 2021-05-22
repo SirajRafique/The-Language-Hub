@@ -50,7 +50,7 @@ All pages have a responsive navigation bar top right and a logo top left. All pa
 
 HTML and CSS programming languages 
 
-Google Fonts to style the website fonts
+[Google Fonts](https://fonts.google.com/) to style the website fonts
 
 
 ### Testing 
