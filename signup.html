@@ -1,102 +1,83 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A website for learning English">
-    <meta name="keywords" content="english, learning, IELTS, language">
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="A website for learning English" name="description">
+	<meta content="english, learning, IELTS, language" name="keywords">
+	<link href="assets/css/style.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>The Language Hub</title>
+	<title>The Language Hub</title>
 </head>
+
 <body>
-    <header>
-        <a href="index.html">
-            <h1 id="logo">The Language Hub</h1>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="signup.html" class="active">Sign Up</a>
-                </li>
-                
-                <li>
-                    <a href="courses.html">Courses</a>
-                </li>
-                
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+	<header>
+		<a href="index.html">
+		<h1 class="logo">The Language Hub</h1></a>
 
-    <section class="form-test-your-english">
-        <form method="POST" action="https://formdump.languagehub.com/" class="signup-form1">
-            <h2>Test Your English</h2>
-            <label for="fname">First Name</label>
-            <input class="text-input" id="fname" name="first_name" type="text" required>
-            
-            <label for="lname">Last Name</label>
-            <input class="text-input" id="lname" name="last_name" type="text" required>
-            
-            <label for="email">Email Address</label>
-            <input class="text-input" type="email" id="email" name="email_address" required>
-            
-            <label for="course">Country</label>
-            <input class="text-input" type="course" id="course" name="course" required>
-            
-            <input class="join-button" type="submit" value="Start">
-        </form>
-    </section>
-
-<section class="form-book-your-course">
-    <form method="POST" action="https://formdump.languagehub.com/" class="signup-form2">
-        <h2>Sign Up and Book Your Course</h2>
-        <label for="fname">First Name</label>
-        <input class="text-input" id="fname" name="first_name" type="text" required>
-        
-        <label for="lname">Last Name</label>
-        <input class="text-input" id="lname" name="last_name" type="text" required>
-        
-        <label for="email">Email Address</label>
-        <input class="text-input" type="email" id="email" name="email_address" required>
-        
-        <label for="course">Choose Your Course</label>
-        <input class="text-input" type="course" id="course" name="course" required>
-        
-        <input class="join-button" type="submit" value="Book">
-    </form>
-</section>
+		<nav>
+			<ul class="menu">
+				<li>
+					<a class="active" href="signup.html">Sign Up</a>
+				</li>
 
 
-<section id="links">
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-        </ul>
+				<li>
+					<a href="courses.html">Courses</a>
+				</li>
 
-        <script src="https://kit.fontawesome.com/67f55bc251.js" crossorigin="anonymous"></script>
-    </footer>
-</section>
 
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<section class="form-test-your-english">
+		<form action="https://formdump.languagehub.com/" class="signup-form1" method="post">
+			<h2>Test Your English</h2>
+			<label for="fname">First Name</label> <input class="text-input" id="fname" name="first_name" required="" type="text"> <label for="lname">Last Name</label> <input class="text-input" id="lname" name="last_name" required="" type="text"> <label for="email">Email Address</label> <input class="text-input" id="email" name="email_address" required="" type="email"> <label for="course">Country</label> <input class="text-input" id="course" name="course" required="" type="course"> <input class="join-button" type="submit" value="Start">
+		</form>
+	</section>
+
+
+	<section class="form-book-your-course">
+		<form action="https://formdump.languagehub.com/" class="signup-form2" method="post">
+			<h2>Sign Up and Book Your Course</h2>
+			<label for="fname">First Name</label> <input class="text-input" id="fname" name="first_name" required="" type="text"> <label for="lname">Last Name</label> <input class="text-input" id="lname" name="last_name" required="" type="text"> <label for="email">Email Address</label> <input class="text-input" id="email" name="email_address" required="" type="email"> <label for="course">Choose Your Course</label> <input class="text-input" id="course" name="course" required="" type="course"> <input class="join-button" type="submit" value="Book">
+		</form>
+	</section>
+
+
+	<section class="links">
+		<footer>
+			<ul class="social-networks">
+				<li>
+					<a aria-label="Visit our Facebook page (opens in a new tab)" href="https://facebook.com" rel="noopener" target="_blank"><i class="fab fa-facebook-square"></i></a>
+				</li>
+
+
+				<li>
+					<a aria-label="Visit our Twitter page (opens in a new tab)" href="https://twitter.com" rel="noopener" target="_blank"><i class="fab fa-twitter"></i></a>
+				</li>
+
+
+				<li>
+					<a aria-label="Visit our YouTube page (opens in a new tab)" href="https://youtube.com" rel="noopener" target="_blank"><i class="fab fa-youtube"></i></a>
+				</li>
+
+
+				<li>
+					<a aria-label="Visit our Instagram page (opens in a new tab)" href="https://instagram.com" rel="noopener" target="_blank"><i class="fab fa-instagram"></i></a>
+				</li>
+			</ul>
+			<script src="https://kit.fontawesome.com/67f55bc251.js">
+			</script>
+		</footer>
+	</section>
 </body>
-
 </html>

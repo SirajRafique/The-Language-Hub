@@ -1,390 +1,378 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway&display=swap');
-
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
 body {
-    font-family: Raleway, sans-serif;
-    font-weight: 400;
-    color: #3a3a3a;
-} 
+	font-family: Raleway, sans-serif;
+	font-weight: 400;
+	color: #3a3a3a;
+}
 
 /* Logo and heading */
 
 h1 {
-    font-family: Caveat, sans-serif;
-    color: rgb(63, 131, 191);   
+	font-family: Caveat, sans-serif;
+	color: rgb(63, 131, 191);
 }
 
-#logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
+.logo {
+	float: left;
+	font-size: 280%;
+	margin-left: 30px;
 }
 
 /* Navigation links */
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
+.menu {
+	font-size: 110%;
+	letter-spacing: 4px;
 }
 
-#menu, #logo {
-    line-height: 75px;
+.menu,
+.logo {
+	line-height: 75px;
 }
 
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 50px;
+.menu li {
+	float: right;
+	list-style-type: none;
+	margin-right: 50px;
 }
 
-#menu a {
-    text-decoration: none;
-    color: inherit;
+.menu a {
+	text-decoration: none;
+	color: inherit;
 }
 
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+.menu a:hover {
+	border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
-    border-bottom: 1px solid rgb(63, 131, 191);
+	border-bottom: 1px solid rgb(63, 131, 191);
 }
 
 /* Hero Image and Cover Text */
 
-#hero-outer {
-    height: 700px;
-    width: 100%;
-    overflow: hidden;
-
-    position: relative;
+.hero-outer {
+	height: 700px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
 }
 
-#cover-text-test-your-english {
-        font-size: 100%;
-        font-family: Caveat, sans-serif;
-        text-transform: uppercase;
-        color: white;
-    
-        width: 300px;
-        height: 50px;
-        border-radius: 25px;
-    
-        padding-top: 10px;
-        padding-left: 10px;
-    
-        background-color: rgb(63, 131, 191);
-    
-        bottom: 400px;
-        right: 75px;
-    
-        position: absolute;
-    }
-
-#cover-text-book-now {
-    font-size: 100%;
-    font-family: Caveat, sans-serif;
-    text-transform: uppercase;
-    color: white;
-
-    width: 300px;
-    height: 50px;
-    border-radius: 25px;
-
-    padding-top: 10px;
-    padding-left: 10px;
-
-    background-color: rgb(63, 131, 191);
-
-    bottom: 330px;
-    right: 75px;
-
-    position: absolute;
+.cover-text-test-your-english {
+	font-size: 100%;
+	font-family: Caveat, sans-serif;
+	text-transform: uppercase;
+	color: white;
+	width: 300px;
+	height: 50px;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-color: rgb(63, 131, 191);
+	bottom: 400px;
+	right: 75px;
+	position: absolute;
 }
 
-#cover-text-book-now:hover, #cover-text-test-your-english:hover {
-    
-    animation-name: hero-zoom;
-    animation-fill-mode: forwards;
+.cover-text-book-now {
+	font-size: 100%;
+	font-family: Caveat, sans-serif;
+	text-transform: uppercase;
+	color: white;
+	width: 300px;
+	height: 50px;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-color: rgb(63, 131, 191);
+	bottom: 330px;
+	right: 75px;
+	position: absolute;
 }
 
-#hero-image {
-    height: 700px;
-    width: 100%;
-    background: url(../images/teacher.jpg) no-repeat center center; 
-    position: absolute;
+.cover-text-book-now:hover,
+#cover-text-test-your-english:hover {
+	animation-name: hero-zoom;
+	animation-fill-mode: forwards;
+}
 
-/* Animates zoom effect on loading page */
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+.hero-image {
+	height: 700px;
+	width: 100%;
+	background: url(../images/teacher.jpg) no-repeat center center;
+	position: absolute;
+	/* Animates zoom effect on loading page */
+	animation-name: hero-zoom;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
 }
 
 /* Zoom for hero image */
 
 @keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.1);
+	}
 }
 
 /* Company ethos */
 
-#company-ethos {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-
-    position: relative;
-    
+.company-ethos {
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
 }
 
-#image-students { 
-    content: url(../images/students.jpg);
-    width: 700px;
-    height: 400px;
-    border-radius: 50px;
-    margin-top: 110px;
+.image-students {
+	content: url(../images/students.jpg);
+	width: 700px;
+	height: 400px;
+	border-radius: 50px;
+	margin-top: 110px;
 }
 
-#left-about {
-    padding-top: 10px;
-    padding-left: 60px;
-    width: 33%;
-    float:left;
-    background-color: white;
-    margin-left: 200px;
-    margin-top: 100px;
-    height: 350px;
+.left-about {
+	padding-top: 10px;
+	padding-left: 60px;
+	width: 33%;
+	float: left;
+	background-color: white;
+	margin-left: 200px;
+	margin-top: 100px;
+	height: 350px;
 }
 
-#left-about > p, li {
-font-size: 120%;
+.left-about>p,
+li {
+	font-size: 120%;
 }
 
-#left-about > ul {
-    list-style-position: inside;
+.left-about>ul {
+	list-style-position: inside;
 }
 
-#left-about > h2 {
-    color: rgb(63, 131, 191);
-    font-size: 60px;
-    font-family: Caveat, sans-serif;
+.left-about>h2 {
+	color: rgb(63, 131, 191);
+	font-size: 60px;
+	font-family: Caveat, sans-serif;
 }
 
-#left-about > h5 {
-    text-transform: uppercase;
-    text-align: center;
-    width: 230px;
-    height: 30px;
-    border-radius: 25px;
-    padding-top: 15px;
-    background-color: rgb(63, 131, 191);
+.left-about>h5 {
+	text-transform: uppercase;
+	text-align: center;
+	width: 230px;
+	height: 30px;
+	border-radius: 25px;
+	padding-top: 15px;
+	background-color: rgb(63, 131, 191);
 }
 
-.active1, .active2, .active3 {
-    color: white;
+.active1,
+.active2,
+.active3 {
+	color: white;
 }
 
-#left-about>h5:hover {
-    animation-name: hero-zoom;
-    animation-fill-mode: forwards;
+.left-about>h5:hover {
+	animation-name: hero-zoom;
+	animation-fill-mode: forwards;
 }
 
 /* Testimonial */
 
-#left-about2 {
-    content: url(../images/a\ girl.jpg);
-    margin-left: 300px;
-    margin-bottom: 50px;
-    max-width: 20%;
+.left-about2 {
+	content: url(../images/a\ girl.jpg);
+	margin-left: 300px;
+	margin-bottom: 50px;
+	max-width: 20%;
 }
 
-#right-about2 {
-    float: right;
-    width: 40%;
-    text-align: center;
-    margin-right: 300px;
-    margin-top: 50px;
+.right-about2 {
+	float: right;
+	width: 40%;
+	text-align: center;
+	margin-right: 300px;
+	margin-top: 50px;
 }
 
-  /* Courses Page - Coloumn Cards */
+/* Courses Page - Coloumn Cards */
 
-.cardcontainer:before, .cardcontainer:after {
-    content: "";
-    display: table;
-    clear: both; 
- }
+.cardcontainer:before,
+.cardcontainer:after {
+	content: "";
+	display: table;
+	clear: both;
+}
 
 .card {
-    float: left;
-    width: calc(25% - 20px);
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-    height: 200px;
-    margin-left: 120px;
-    margin-top: 100px;
- }
- 
- .card h2 { 
-    margin-top: 50px;
-    text-align: center;
-    color: white;
- }
-  
- .card:hover {
-    animation-name: hero-zoom;
-    animation-fill-mode: forwards;
+	float: left;
+	width: calc(25% - 20px);
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+	height: 200px;
+	margin-left: 120px;
+	margin-top: 100px;
 }
 
- /* Sign up page - test your english */
+.card h2 {
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+}
 
- .form-test-your-english {
-    clear: left;
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-} 
+.card:hover {
+	animation-name: hero-zoom;
+	animation-fill-mode: forwards;
+}
+
+/* Sign up page - test your english */
+
+.form-test-your-english {
+	clear: left;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
 
 .signup-form1 {
-    margin: 100px 10% 0 17.5%;
-    color: black;
-    background-color: rgb(140, 140, 140);
-    max-width: 900px;
-    position: absolute;
-    left: 6%;    
-    padding: 30px;
-    border-radius: 10px;
+	margin: 100px 10% 0 17.5%;
+	color: black;
+	background-color: rgb(140, 140, 140);
+	max-width: 900px;
+	position: absolute;
+	left: 6%;
+	padding: 30px;
+	border-radius: 10px;
 }
 
-.signup-form1 > h2 {
-    color: black;
-    font-family: Caveat, sans-serif;
-    font-size: 3em;
-    text-align: center;
-    margin-bottom: 20px;
+.signup-form1>h2 {
+	color: black;
+	font-family: Caveat, sans-serif;
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .text-input {
-    color: black;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 2px solid #fafafa;
-    border-radius: 5px;
+	color: black;
+	width: 100%;
+	height: 25px;
+	margin: 5px 0 20px 0;
+	border: 2px solid #fafafa;
+	border-radius: 5px;
 }
 
 .text-input:hover {
-    border-color: #629aee;
+	border-color: #629aee;
 }
 
 .join-button {
-    margin-top: 20px;
-    border-radius: 10px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 100%;
-    background-color: rgb(63, 131, 191);
-    color: #fafafa;
-    display: block;
-    float: right;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 15px 32px 15px 32px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 100%;
+	background-color: rgb(63, 131, 191);
+	color: #fafafa;
+	display: block;
+	float: right;
 }
 
 .join-button:hover {
-    animation-name: hero-zoom;
-    animation-fill-mode: forwards;
+	animation-name: hero-zoom;
+	animation-fill-mode: forwards;
 }
 
- /* Sign up page - book a course */
+/* Sign up page - book a course */
 
- .form-book-your-course {
-    clear: left;
-    background-size: cover;
-    background-position: center;
-    height: 600px;
+.form-book-your-course {
+	clear: left;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
 }
 
 .signup-form2 {
-    margin: 100px 10% 0 17.5%;
-    color: black;
-    background-color: rgb(140, 140, 140);
-    max-width: 900px;
-    position: absolute;
-    left: 6%;    
-    padding: 30px;
-    border-radius: 10px;
+	margin: 100px 10% 0 17.5%;
+	color: black;
+	background-color: rgb(140, 140, 140);
+	max-width: 900px;
+	position: absolute;
+	left: 6%;
+	padding: 30px;
+	border-radius: 10px;
 }
 
-.signup-form2 > h2 {
-    color: black;
-    font-family: Caveat, sans-serif;
-    font-size: 3em;
-    text-align: center;
-    margin-bottom: 20px;
+.signup-form2>h2 {
+	color: black;
+	font-family: Caveat, sans-serif;
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .text-input {
-    color: black;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 2px solid #fafafa;
-    border-radius: 5px;
+	color: black;
+	width: 100%;
+	height: 25px;
+	margin: 5px 0 20px 0;
+	border: 2px solid #fafafa;
+	border-radius: 5px;
 }
 
 .text-input:hover {
-    border-color: #629aee;
+	border-color: #629aee;
 }
 
 .join-button {
-    margin-top: 20px;
-    border-radius: 10px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 100%;
-    background-color: rgb(63, 131, 191);
-    color: #fafafa;
-    display: block;
-    float: right;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 15px 32px 15px 32px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 100%;
+	background-color: rgb(63, 131, 191);
+	color: #fafafa;
+	display: block;
+	float: right;
 }
 
 .join-button:hover {
-    animation-name: hero-zoom;
-    animation-fill-mode: forwards;
+	animation-name: hero-zoom;
+	animation-fill-mode: forwards;
 }
 
- /* footer */
+/* footer */
 
- footer {
-    height: 150px;
+footer {
+	height: 150px;
 }
 
 .social-networks {
-    text-align: center;
+	text-align: center;
 }
 
 .social-networks>li {
-    display: inline;
+	display: inline;
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+	font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color: #3a3a3a;
 }
 
 /* Media queries */
@@ -392,142 +380,123 @@ font-size: 120%;
 /* Home */
 
 /* For larger to medium screen size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    
-    #left-about {
-        width: 80%;
-        float: none;
-        margin-left: 50px;
-        margin-top: 20px;
-    }
-    
-    #left-about > h5 {
-        margin-left: 150px;
-        margin-top: 30px;
-    }
-    
-    #image-students {
-        display: none;
-    }
-    
-    #right-about2 {
-        margin-top: 0px;
-        float: none;
-        margin-right: auto;
-        margin-left: 220px;
-    }
-    
-    #company-ethos {
-        height: 500px;
-    }
-    
-    #left-about2 {
-        margin-left: 180px;
-        max-width: 50%;
-        margin-top: 20px;
-    }
 
+@media screen and (max-width: 1200px) {
+	.left-about {
+		width: 80%;
+		float: none;
+		margin-left: 50px;
+		margin-top: 20px;
+	}
+	.left-about>h5 {
+		margin-left: 150px;
+		margin-top: 30px;
+	}
+	.image-students {
+		display: none;
+	}
+	.right-about2 {
+		margin-top: 0px;
+		float: none;
+		margin-right: auto;
+		margin-left: 220px;
+	}
+	.company-ethos {
+		height: 500px;
+	}
+	.left-about2 {
+		margin-left: 180px;
+		max-width: 50%;
+		margin-top: 20px;
+	}
 }
 
 /* Courses */
 
 /* For larger to medium screen size from 1200px wide and down */
+
 @media screen and (max-width: 1200px) {
-
-    .card {
-            width: 65%;
-            margin-left: 15%;
-    }
-
+	.card {
+		width: 65%;
+		margin-left: 15%;
+	}
 }
 
 /* Sign Up */
 
 /* For larger to medium screen size from 1200px wide and down */
+
 @media screen and (max-width: 1200px) {
-
-    .signup-form1, .signup-form2 {
-        width: 65%;
-        margin-left: 100px;
-    }
-
+	.signup-form1,
+	.signup-form2 {
+		width: 65%;
+		margin-left: 100px;
+	}
 }
 
 /* For smaller screen size from 600px wide and down */
+
 @media only screen and (max-width: 600px) {
-
-#hero-outer {
-    height: 400px;
-}
-
-#logo {
-    font-size: 200%;
-    margin-left: 60px;
-}
-
-    #menu {
-    line-height: 40px;
-}
-#menu > li {
-    margin-right: 30px;
-    font-size: 80%;
-
-}
-
-#cover-text-test-your-english {
-    width: 200px;
-    font-size: 80%;
-    text-align: center;
-    bottom: 120px;
-    right: 20px;
-}
-
-#cover-text-book-now {
-    width: 200px;
-    text-align: center;
-    font-size: 80%;
-    bottom: 50px;
-    right: 20px;
-}
-
-#left-about {
-    width: 60%;
-    float: none;
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 80%;
-}
-
-#left-about > h5 {
-    margin-left: 5px;
-}
-
-#image-students {
-    display: none;
-}
-
-#right-about2 {
-    margin-top: 10px;
-    float: none;
-    margin-right: auto;
-    margin-left: 120px;
-}
-
-#company-ethos {
-    height: 550px;
-}
-
-#left-about2 {
-    margin-left: 100px;
-    max-width: 50%;
-}
-
-#left-about > h2 {
-    font-size: 30px;
-}
-.signup-form1, .signup-form2 {
-    width: 65%;
-    margin-left: 20px;
-}
-
+	.hero-outer {
+		height: 400px;
+	}
+	.logo {
+		font-size: 200%;
+		margin-left: 60px;
+	}
+	.menu {
+		line-height: 40px;
+	}
+	#menu>li {
+		margin-right: 30px;
+		font-size: 80%;
+	}
+	.cover-text-test-your-english {
+		width: 200px;
+		font-size: 80%;
+		text-align: center;
+		bottom: 120px;
+		right: 20px;
+	}
+	.cover-text-book-now {
+		width: 200px;
+		text-align: center;
+		font-size: 80%;
+		bottom: 50px;
+		right: 20px;
+	}
+	.left-about {
+		width: 60%;
+		float: none;
+		margin-left: 20px;
+		margin-top: 20px;
+		font-size: 80%;
+	}
+	.left-about>h5 {
+		margin-left: 5px;
+	}
+	.image-students {
+		display: none;
+	}
+	.right-about2 {
+		margin-top: 10px;
+		float: none;
+		margin-right: auto;
+		margin-left: 120px;
+	}
+	.company-ethos {
+		height: 550px;
+	}
+	.left-about2 {
+		margin-left: 100px;
+		max-width: 50%;
+	}
+	.left-about>h2 {
+		font-size: 30px;
+	}
+	.signup-form1,
+	.signup-form2 {
+		width: 65%;
+		margin-left: 20px;
+	}
 }
