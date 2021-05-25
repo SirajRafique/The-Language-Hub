@@ -39,19 +39,19 @@
 	<section class="form-section">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
             <h2>Book Your Course    <i class="far fa-comment-dots"></i></h2>
-            <label for="fname">First Name</label>
+            <label for="fname">First Name:</label>
             <input class="text-input" id="fname" name="first_name" type="text" required>
             
-            <label for="lname">Last Name</label>
+            <label for="lname">Last Name:</label>
             <input class="text-input" id="lname" name="last_name" type="text" required>
             
-            <label for="email">Email Address</label>
+            <label for="email">Email Address:</label>
             <input class="text-input" type="email" id="email" name="email_address" required>
 
-			<label for="number">Phone Number</label>
+			<label for="number">Phone Number:</label>
             <input class="text-input" type="tel" id="phone" name="phone_number" required>
 
-			<label for="country">Country Of Residence</label>
+			<label for="country">Country Of Residence:</label>
             <input class="text-input" type="text" id="country" name="country" required>
             
             <label for="courses">Choose a Course:</label>
@@ -62,6 +62,9 @@
   					<option value="Exam Preparation">Exam Preparation</option>
   					<option value="General English Face-to-Face">General English Face-to-Face</option>
 				</select>
+
+			<label for="message">Message:</label>
+        	<textarea id="message" name="subject" placeholder="Leave a message.." style="height:170px"></textarea>
             
             <input class="join-button" type="submit" value="BOOK">
         </form>
