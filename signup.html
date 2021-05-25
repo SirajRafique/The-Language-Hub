@@ -36,13 +36,40 @@
 		</nav>
 	</header>
 
-	<section class="form-book-your-course">
-		<form action="https://formdump.languagehub.com/" class="signup-form2" method="post">
-			<h2>Sign Up and Book Your Course</h2>
-			<label for="fname">First Name</label> <input class="text-input" id="fname" name="first_name" required="" type="text"> <label for="lname">Last Name</label> <input class="text-input" id="lname" name="last_name" required="" type="text"> <label for="email">Email Address</label> <input class="text-input" id="email" name="email_address" required="" type="email"> <label for="course">Choose Your Course</label> <input class="text-input" id="course" name="course" required="" type="course"> <input class="join-button" type="submit" value="Book">
-		</form>
-	</section>
+	<section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Book Your Course    <i class="far fa-comment-dots"></i></h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" required>
 
+			<label for="number">Phone Number</label>
+            <input class="text-input" type="tel" id="phone" name="phone_number" required>
+
+			<label for="country">Country Of Residence</label>
+            <input class="text-input" type="text" id="country" name="country" required>
+            
+            <label for="courses">Choose a course:</label>
+			<select id="courses" name="courses" size="5" multiple>
+  				<option value="General English Online">General English Online</option>
+  				<option value="One-to-One">One-to-One</option>
+				<option value="Intensive Classes">Intensive Classes</option>
+  				<option value="Exam Preparation">Exam Preparation</option>
+  				<option value="General English Face-to-Face">General English Face-to-Face</option>
+		
+			
+		</select>
+            
+            <input class="join-button" type="submit" value="BOOK!">
+        </form>
+    </section>
+	
+	
 
 	<section class="links">
 		<footer>
