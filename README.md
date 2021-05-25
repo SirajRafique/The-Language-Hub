@@ -8,6 +8,8 @@ They can have their English tested and or book one of our courses with a British
 The website has been kept simple with the available courses outlined on the courses pages. 
 The primary goal of the website is to have an online presence for students that I already teach face to face and to gain further business via word of mouth/recommendation. Anyone visiting will quickly be able to choose a course, book and make contact.  
 
+![responsive](https://user-images.githubusercontent.com/80712910/119545919-3b6c7700-bd8b-11eb-9f77-c831072dc074.PNG)
+
 
 ### UX
 ------

@@ -294,7 +294,12 @@ h1 {
     color: #f16c6b;
 }
 
-
+@media screen and (max-width: 800px) {
+	
+}
+.text-select, .form-section, .signup-form, .join-button, .text-input {
+	width: 100%;
+}
 
 /* footer */
 
