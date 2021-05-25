@@ -262,6 +262,21 @@ h1 {
     border-color: #f16c6b;
 }
 
+.text-select {
+    background: transparent;
+    color: black;
+	font-size: large;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-select:hover {
+    border-color: #f16c6b;
+}
+
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -277,7 +292,6 @@ h1 {
     background-color: #fafafa;
     color: #f16c6b;
 }
-
 
 
 /* footer */
@@ -303,126 +317,6 @@ footer {
 
 /* Media queries */
 
-/* Home */
 
-/* For larger to medium screen size from 1200px wide and down */
 
-@media screen and (max-width: 1200px) {
-	.left-about {
-		width: 80%;
-		float: none;
-		margin-left: 50px;
-		margin-top: 20px;
-	}
-	.left-about>h5 {
-		margin-left: 150px;
-		margin-top: 30px;
-	}
-	.image-students {
-		display: none;
-	}
-	.right-about2 {
-		margin-top: 0px;
-		float: none;
-		margin-right: auto;
-		margin-left: 220px;
-	}
-	.company-ethos {
-		height: 500px;
-	}
-	.left-about2 {
-		margin-left: 180px;
-		max-width: 50%;
-		margin-top: 20px;
-	}
-}
 
-/* Courses */
-
-/* For larger to medium screen size from 1200px wide and down */
-
-@media screen and (max-width: 1200px) {
-	.card {
-		width: 65%;
-		margin-left: 15%;
-	}
-}
-
-/* Sign Up */
-
-/* For larger to medium screen size from 1200px wide and down */
-
-@media screen and (max-width: 1200px) {
-	.signup-form1,
-	.signup-form2 {
-		width: 65%;
-		margin-left: 100px;
-	}
-}
-
-/* For smaller screen size from 600px wide and down */
-
-@media only screen and (max-width: 600px) {
-	.hero-outer {
-		height: 400px;
-	}
-	.logo {
-		font-size: 200%;
-		margin-left: 60px;
-	}
-	.menu {
-		line-height: 40px;
-	}
-	#menu>li {
-		margin-right: 30px;
-		font-size: 80%;
-	}
-	.cover-text-test-your-english {
-		width: 200px;
-		font-size: 80%;
-		text-align: center;
-		bottom: 120px;
-		right: 20px;
-	}
-	.cover-text-book-now {
-		width: 200px;
-		text-align: center;
-		font-size: 80%;
-		bottom: 50px;
-		right: 20px;
-	}
-	.left-about {
-		width: 60%;
-		float: none;
-		margin-left: 20px;
-		margin-top: 20px;
-		font-size: 80%;
-	}
-	.left-about>h5 {
-		margin-left: 5px;
-	}
-	.image-students {
-		display: none;
-	}
-	.right-about2 {
-		margin-top: 10px;
-		float: none;
-		margin-right: auto;
-		margin-left: 120px;
-	}
-	.company-ethos {
-		height: 550px;
-	}
-	.left-about2 {
-		margin-left: 100px;
-		max-width: 50%;
-	}
-	.left-about>h2 {
-		font-size: 30px;
-	}
-	.signup-form1,
-	.signup-form2 {
-		width: 65%;
-		margin-left: 20px;
-	}
-}
