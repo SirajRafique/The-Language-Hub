@@ -50,7 +50,7 @@ All pages have a responsive navigation bar top right and a logo top left. All pa
 ### Technologies used
 ---------------------
 
-HTML and CSS programming languages 
+HTML5 and CSS3 programming languages 
 
 [Google Fonts](https://fonts.google.com/) to style the website fonts
 
