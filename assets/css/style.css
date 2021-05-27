@@ -190,7 +190,7 @@ h1 {
 	font-family: Caveat, sans-serif;
 }
 
-.left-about>h5 {
+.left-about > h5 {
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 120%;
@@ -202,9 +202,7 @@ h1 {
 	background-color: rgb(63, 131, 191);
 }
 
-.active1,
-.active2,
-.active3 {
+.active1, .active2, .active3 {
 	color: white;
 	text-decoration: none;
 }
@@ -233,8 +231,7 @@ h1 {
 
 /* Courses Page - Coloumn Cards */
 
-.cardcontainer:before,
-.cardcontainer:after {
+.cardcontainer:before, .cardcontainer:after {
 	content: "";
 	display: table;
 	clear: both;
@@ -242,19 +239,30 @@ h1 {
 
 .card {
 	float: left;
-	width: calc(25% - 20px);
-	padding: 10px;
+	width: 400px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
 	border-radius: 10px;
-	margin: 10px;
-	height: 200px;
 	margin-left: 120px;
 	margin-top: 100px;
+	height: 400px;
 }
 
 .card h2 {
-	margin-top: 50px;
+	margin-top: 30px;
 	text-align: center;
 	color: white;
+	font-family: Caveat, sans-serif;
+	font-size: 250%;
+}
+
+.card p {
+	text-align: center;
+	font-family: Raleway, sans-serif;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .card:hover {
