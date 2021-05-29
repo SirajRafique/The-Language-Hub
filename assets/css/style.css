@@ -231,44 +231,177 @@ h1 {
 
 /* Courses Page - Coloumn Cards */
 
-.cardcontainer:before, .cardcontainer:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.card {
-	float: left;
-	width: 400px;
-	padding-bottom: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border-radius: 10px;
-	margin-left: 120px;
-	margin-top: 100px;
-	height: 400px;
-}
-
-.card h2 {
-	margin-top: 30px;
-	text-align: center;
-	color: white;
-	font-family: Caveat, sans-serif;
-	font-size: 250%;
-}
-
-.card p {
-	text-align: center;
-	font-family: Raleway, sans-serif;
-	width: 70%;
+  .wrapper {
+	width: 90%;
+	padding-top: 100px;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.card:hover {
-	animation-name: hero-zoom;
-	animation-fill-mode: forwards;
-}
+	max-width: 80rem;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+  
+  .cols {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+  }
+  
+  .col {
+	width: calc(25% - 2rem);
+	margin: 1rem;
+	cursor: pointer;
+  }
+  
+  .container {
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+  }
+  
+  .front {
+	background-size: cover;
+	border-radius: 10px;
+	background-position: center;
+	-webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	-o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	
+	text-align: center;
+	min-height: 280px;
+	height: auto;
+	border-radius: 10px;
+	color: white;
+	font-size: 0.8rem;
+  }
+  
+  .back {
+	background: white;
+	background-size: cover;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+	border-radius: 10px;
+	background-position: center;
+	-webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	-o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	  
+	text-align: center;
+	min-height: 280px;
+	height: auto;
+	border-radius: 10px;
+	color: black;
+	font-size: 0.8rem;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+  }
+  
+  .container:hover .front, .container:hover .back {
+	  -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	  transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	  -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	  transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	  transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  }
+  
+  .inner {
+	  -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+	  transform: translateY(-50%) translateZ(60px) scale(0.94);
+	  
+	  font-family: Raleway, sans-serif;
+	  top: 50%;
+	  position: absolute;
+	  left: 0;
+	  width: 100%;
+	  padding: 2rem;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	  outline: 1px solid transparent;
+	  -webkit-perspective: inherit;
+	  perspective: inherit;
+	  z-index: 2;
+  }
+  
+  .container .back {
+	  -webkit-transform: rotateY(180deg);
+			  transform: rotateY(180deg);
+	  -webkit-transform-style: preserve-3d;
+			  transform-style: preserve-3d;
+  }
+  
+  .container .front {
+	  -webkit-transform: rotateY(0deg);
+			  transform: rotateY(0deg);
+	  -webkit-transform-style: preserve-3d;
+			  transform-style: preserve-3d;
+  }
+  
+  .container:hover .back {
+	-webkit-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+  }
+  
+  .container:hover .front {
+	-webkit-transform: rotateY(-180deg);
+			transform: rotateY(-180deg);
+	-webkit-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+  }
+  
+  .front .inner p {
+	font-size: 2rem;
+	font-family: Caveat, sans-serif;
+	margin-bottom: 2rem;
+	position: relative;
+  }
+  
+  .front .inner p:after {
+	content: '';
+	width: 4rem;
+	height: 2px;
+	position: absolute;
+	background: #C6D4DF;
+	display: block;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: -.75rem;
+  }
+  
+  @media screen and (max-width: 64rem){
+	.col{
+	  width: calc(33.333333% - 2rem);
+	}
+  }
+  
+  @media screen and (max-width: 48rem){
+	.col{
+	  width: calc(50% - 2rem);
+	}
+  }
+  
+  @media screen and (max-width: 32rem){
+	.col{
+	  width: 100%;
+	  margin: 0 0 2rem 0;
+	}
+  }
 
 /* Sign up page  */
 
