@@ -21,10 +21,10 @@ You can view the deployed website [here]( https://sirajrafique.github.io/The-Lan
 * [3. Technology Used](#technologyused) <a name="technologyused"></a>
 * [4. Testing](#testing) <a name="testing"></a> 
 * [5. Bugs Discovered](#bugsdiscovered) <a name="bugsdiscovered"></a>
-* Deployment
-* Credits
+* [Deployment](#deployment) <a name="deployment"></a>
+* [Credits](#credits) <a name="credits"></a>
 
-* 1. ### UX
+**## 1. UX**
 ---------
             
 1.1 **Client Stories:** 
@@ -43,7 +43,7 @@ You can view the deployed website [here]( https://sirajrafique.github.io/The-Lan
 Wireframes created as part of the design process - View [here](https://github.com/SirajRafique/The-Language-Hub/blob/9449484987aeda6649d5cb29102aebc8848ad003/Wireframes.md)
 
 
-* 2. ### Features
+**## 2. Features**
 ------------
 
 1. The simplicity of the website, the fact that it is minimalistic and I've tried to make it less crowded should enable the user to navigate with ease. 
@@ -56,7 +56,7 @@ Wireframes created as part of the design process - View [here](https://github.co
 8. There are social media links on each page at the bottom which the user can click on.  
 
 
-3. ### Technologies used
+**## 3. Technologies Used**
 ---------------------
 
 * HTML5
@@ -70,13 +70,13 @@ Used to create the wireframes during the design process.
 * GitHub
 Used for reviewing the README, adding extra files and for storing the code after being pushed from Gitpod.
 
-4. ### Testing 
+**## 4. Testing**
 
 Testing information can be found here [Testing.md](https://github.com/SirajRafique/The-Language-Hub/blob/2ec2066115b5f0714ee6373d4d10b968a0cc2c1a/Testing.md)
 
 Including manual and client stories testing. 
 
-5. **Bugs discovered**
+**## 5. Bugs discovered**
 
 I couldn't upload a hero image succesfully - the image was to big and wouldn't fit on the page. I tried changing the code, height, width, position etc, nothing would work. I then did some research and found out from the image properties that the pixels were to large and I had to compress the image. I found pixabay useful for this because it enables you to enter the image size. I uploaded the image, entered a height and width and it seemed to work. I still don't feel confident uploading pictures but with practice i should get better.  
 
@@ -88,7 +88,7 @@ Below is another issue which I fixed by resizing the image.
 
 When creating a link for the find your course button the text was highlighted blue - found out that I already had a class named active so I had to rename the class and then add to css and style. 
 
-6. ### Deployment 
+**## 6. Deployment** 
 --------------
 
 1.	First, Log into GitHub: Where the world builds software
@@ -110,8 +110,7 @@ How to run this project locally and to clone the project into Gitpod:
 7.	Click the green Gitpod button top right-hand corner
 8.	This will trigger a new Gitpod workspace to be created from the code where you can work locally
 
-
-7. ### Credits
+**### 7. Credits**
 -----------
 
 **Content** 
