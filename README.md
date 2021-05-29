@@ -1,20 +1,35 @@
 # The Language Hub 
 --------------------------
 
-Click [Here]( https://sirajrafique.github.io/The-Language-Hub/) to view deployed website. 
 
-This is a website for people of all ages looking to learn English online or face-to-face.  
-They can have their English tested and or book one of our courses with a British Council accredited teacher. 
-The website has been kept simple with the available courses outlined on the courses pages. 
-The primary goal of the website is to have an online presence for students that I already teach face to face and to gain further business via word of mouth/recommendation. Anyone visiting will quickly be able to choose a course, book and make contact.  
+## Introduction 
+
+Welcome to my first project. This is a website for people of all ages looking to learn English online or face-to-face.  
+
+The primary goal of the website is for me to have an online presence and for students to view the available courses and get in touch.  
+
+The website was kept simple to enable easy navigation to the courses and sign up page. 
+
+You can view the deployed website [here]( https://sirajrafique.github.io/The-Language-Hub/) 
 
 ![responsive](https://user-images.githubusercontent.com/80712910/119545919-3b6c7700-bd8b-11eb-9f77-c831072dc074.PNG)
 
+## Table of Contents
 
-### UX
+1. [UX](#UX)
+          section_title<a name="UX"></a>  
+2. Features
+3. Technology Used
+4. Testing
+5. Bugs Discovered
+6. Deployment
+7. Credits
+
+
+1. ### UX
 ------
 
-**Client Stories:**
+1. **Client Stories:**
 
 1. As a visitor to the site, I want to be able to navigate with ease.
 2. As a visitor, I want to be able to view the courses available. 
@@ -25,17 +40,13 @@ The primary goal of the website is to have an online presence for students that 
 7. As an Interested student, I want to be able to complete a contact form. 
 8. As an Interested student, I want to be able to follow the school on social media. 
 
-**Mock up:**
+2. **Mock up:**
 
 Mock ups created as part of the design process - Click [here](https://github.com/SirajRafique/The-Language-Hub/blob/9449484987aeda6649d5cb29102aebc8848ad003/Wireframes.md)
 
 
-### Features
+2. ### Features
 ------------
-
-All pages have a responsive navigation bar top right and a logo top left. All pages also have a footer with social media icons linking to the social media pages. 
-
-
 
 1. The simplicity of the website, the fact that it is minimalistic and I've tried to make it less crowded should enable the user to navigate with ease. 
 2. The user is quickly able to view the courses by pressing the courses tab on the top right hand corner which will lead them to a new page and display the courses.
@@ -47,24 +58,27 @@ All pages have a responsive navigation bar top right and a logo top left. All pa
 8. There are social media links on each page at the bottom which the user can click on.  
 
 
-### Technologies used
+3. ### Technologies used
 ---------------------
 
-HTML5 and CSS3 programming languages 
+* HTML5
+The project uses HyperText Markup Language.
+* CSS3 
+The project uses Cascading Style Sheets.
+* [Google Fonts](https://fonts.google.com/) 
+Used to style the fonts throughout the website.
+* [Balsamiq](https://balsamiq.com/)
+Used to create the wireframes during the design process.
+* GitHub
+Used for reviewing the README, adding extra files and for storing the code after being pushed from Gitpod.
 
-[Google Fonts](https://fonts.google.com/) to style the website fonts
-
-
-### Testing 
+4. ### Testing 
 
 Testing information can be found here [Testing.md](https://github.com/SirajRafique/The-Language-Hub/blob/2ec2066115b5f0714ee6373d4d10b968a0cc2c1a/Testing.md)
 
-Including client stories testing. 
+Including manual and client stories testing. 
 
-All navigation links checked and they work.  
-
-
-**Bugs discovered**
+5. **Bugs discovered**
 
 I couldn't upload a hero image succesfully - the image was to big and wouldn't fit on the page. I tried changing the code, height, width, position etc, nothing would work. I then did some research and found out from the image properties that the pixels were to large and I had to compress the image. I found pixabay useful for this because it enables you to enter the image size. I uploaded the image, entered a height and width and it seemed to work. I still don't feel confident uploading pictures but with practice i should get better.  
 
@@ -76,7 +90,7 @@ Below is another issue which I fixed by resizing the image.
 
 When creating a link for the find your course button the text was highlighted blue - found out that I already had a class named active so I had to rename the class and then add to css and style. 
 
-### Deployment 
+6. ### Deployment 
 --------------
 
 1.	First, Log into GitHub: Where the world builds software
@@ -99,7 +113,7 @@ How to run this project locally and to clone the project into Gitpod:
 8.	This will trigger a new Gitpod workspace to be created from the code where you can work locally
 
 
-### Credits
+7. ### Credits
 -----------
 
 **Content** 
@@ -108,7 +122,7 @@ How to run this project locally and to clone the project into Gitpod:
 
 * Why learn English Image of students taken from [PixaBay](https://pixabay.com/photos/students-computers-laptops-smiling-1807505/)
 
-* Hero Image teaken from [PixaBay](https://pixabay.com/photos/teacher-property-plant-and-teaching-3765909/)
+* Hero Image taken from [PixaBay](https://pixabay.com/photos/teacher-property-plant-and-teaching-3765909/)
 
 * The text on the courses.html page was copied and edited from [OHC](https://www.ohcenglish.com/courses), [IH](https://www.ihlondon.com/online-courses), and [LondonSchool](https://www.londonschool.com/)
 
