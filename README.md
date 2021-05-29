@@ -114,11 +114,15 @@ Hero Image - Click [Here](https://pixabay.com/photos/teacher-property-plant-and-
 
 **Code**
 
-Colors for the courses taken from [Here](https://www.w3schools.com/colors/colors_picker.asp)
+Colors for the courses taken from [W3Schools](https://www.w3schools.com/colors/colors_picker.asp)
 
 Logo taken from [Google Fonts](https://fonts.google.com/)
 
-The CSS code for the footer and sign up page were originally taken from the Love Running project and then edited. 
+The CSS code for the footer came from the Love Running project and was then edited. 
+
+The sign up page contact form was Inspired by the Love Running Project and some of the code was also taken from here and edited. 
+
+The flip card feature on the courses.html page was inspired by [Code Pen](https://codepen.io/nicolaspavlotsky/pen/wqGgLO). This is also where some of the code came from. 
 
 Text for Deployment section in README taken from README template and then edited/personalised.
 
