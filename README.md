@@ -15,6 +15,7 @@ You can view the deployed website [here]( https://sirajrafique.github.io/The-Lan
 ![responsive](https://user-images.githubusercontent.com/80712910/119545919-3b6c7700-bd8b-11eb-9f77-c831072dc074.PNG)
 
 ## Table of Contents
+-----------------------------------------------------------------
 
 * [1. UX](#UX) <a name="UX"></a>  
     * [1.1 Client Stories](#clientstories) <a name="clientstories"></a>
@@ -117,7 +118,7 @@ How to run this project locally and to clone the project into Gitpod:
 **7. Credits**
 -----------
 
-[*GO TO THE TOP*](#ux) <a name="ux"></a>
+[*GO TO THE TOP*](#tableofcontents) <a name="tableofcontents"></a>
 
 **Content** 
 
