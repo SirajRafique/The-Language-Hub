@@ -8,8 +8,6 @@ Welcome to my first project. This is a website for people of all ages looking to
 
 The primary goal of the website is for me to have an online presence and for students to view the available courses and get in touch.  
 
-The website was kept simple to enable easy navigation to the courses and sign up page. 
-
 You can view the deployed website [here]( https://sirajrafique.github.io/The-Language-Hub/) 
 
 ![responsive](https://user-images.githubusercontent.com/80712910/119545919-3b6c7700-bd8b-11eb-9f77-c831072dc074.PNG)
@@ -29,6 +27,10 @@ You can view the deployed website [here]( https://sirajrafique.github.io/The-Lan
 
 **1. UX**
 ---------
+
+I received inspiration for this project from the mini project Love Running and my current part-time work as an English Language teacher. 
+
+The website has been kept simple to allow the user to navigate with ease and to quickly find and view the available courses and sign up page. 
             
 **1.1 Client Stories:** 
 
@@ -152,6 +154,3 @@ How to run this project locally and to clone the project into Gitpod:
 
 * Text for Deployment section in README taken from README template and then edited/personalised.
 
-**Acknowledgements**
-
-I received inspiration for this project from the mini project Love Running and my current part-time work as an English teacher. 
