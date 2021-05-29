@@ -73,12 +73,14 @@ Used to create the wireframes during the design process.
 Used for reviewing the README, adding extra files and for storing the code after being pushed from Gitpod.
 
 **4. Testing**
+---------------------------------
 
 Testing information can be found here [Testing.md](https://github.com/SirajRafique/The-Language-Hub/blob/2ec2066115b5f0714ee6373d4d10b968a0cc2c1a/Testing.md)
 
 Including manual and client stories testing. 
 
 **5. Bugs discovered**
+--------------------------------
 
 I couldn't upload a hero image succesfully - the image was to big and wouldn't fit on the page. I tried changing the code, height, width, position etc, nothing would work. I then did some research and found out from the image properties that the pixels were to large and I had to compress the image. I found pixabay useful for this because it enables you to enter the image size. I uploaded the image, entered a height and width and it seemed to work. I still don't feel confident uploading pictures but with practice i should get better.  
 
@@ -114,6 +116,8 @@ How to run this project locally and to clone the project into Gitpod:
 
 **7. Credits**
 -----------
+
+[*GO TO THE TOP*](#contents) <a name="contents"></a>
 
 **Content** 
 
