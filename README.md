@@ -102,34 +102,30 @@ How to run this project locally and to clone the project into Gitpod:
 ### Credits
 -----------
 
-**Content** / **Media**
+**Content** 
 
-The Images were sourced from pixabay.com
+* The Image of the girl in the testimonial section taken from [PixaBay](https://pixabay.com/photos/concentration-curiosity-curious-16032/) 
 
-Testimonial Image - Click [Here](https://pixabay.com/photos/concentration-curiosity-curious-16032/) 
+* Why learn English Image of students taken from [PixaBay](https://pixabay.com/photos/students-computers-laptops-smiling-1807505/)
 
-Why learn English Image - Click [Here](https://pixabay.com/photos/students-computers-laptops-smiling-1807505/)
+* Hero Image teaken from [PixaBay](https://pixabay.com/photos/teacher-property-plant-and-teaching-3765909/)
 
-Hero Image - Click [Here](https://pixabay.com/photos/teacher-property-plant-and-teaching-3765909/)
+* The text on the courses.html page was copied and edited from [OHC](https://www.ohcenglish.com/courses), [IH](https://www.ihlondon.com/online-courses), and [LondonSchool](https://www.londonschool.com/)
 
 **Code**
 
-Colors for the courses taken from [W3Schools](https://www.w3schools.com/colors/colors_picker.asp)
+* Colors for the courses taken from [W3Schools](https://www.w3schools.com/colors/colors_picker.asp)
 
-Logo taken from [Google Fonts](https://fonts.google.com/)
+* Logo taken from [Google Fonts](https://fonts.google.com/)
 
-The CSS code for the footer came from the Love Running project and was then edited. 
+* The CSS code for the footer came from the Love Running project and was then edited. 
 
-The sign up page contact form was Inspired by the Love Running Project and some of the code was also taken from here and edited. 
+* The sign up page contact form was Inspired by the Love Running Project and some of the code was also taken from here and edited. 
 
-The flip card feature on the courses.html page was inspired by [Code Pen](https://codepen.io/nicolaspavlotsky/pen/wqGgLO). This is also where some of the code came from. 
+* The flip card feature on the courses.html page was inspired by [Code Pen](https://codepen.io/nicolaspavlotsky/pen/wqGgLO). This is also where some of the code came from. 
 
-Text for Deployment section in README taken from README template and then edited/personalised.
+* Text for Deployment section in README taken from README template and then edited/personalised.
 
 **Acknowledgements**
 
 I received inspiration for this project from the mini project Love Running and my current part-time work as an English teacher. 
-
-Disclaimer
-
-The website is for educational purposes only! 
