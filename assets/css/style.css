@@ -72,8 +72,8 @@ h1 {
 	width: 300px;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	background-color: rgb(63, 131, 191, 0.6);
 	border-radius: 25px;
 	bottom: 50px;
@@ -473,7 +473,7 @@ footer {
 	}
 
 	.logo { 
-		margin-left: 0;
+		margin-left: 10;
 	}
 
 	html, body {
@@ -511,8 +511,8 @@ footer {
 		border-radius: 25px;
 		margin-bottom: initial;
 		right: 30px;
-		top: 80px;
-		bottom: unset;
+		top: unset;
+		bottom: 80px;
 	}
 
 	.hero-outer {
