@@ -65,15 +65,15 @@ Wireframes created as part of the design process - View [here](https://github.co
 [*GO TO THE TOP*](#UX) <a name="UX"></a>
 
 * HTML5
-The project uses HyperText Markup Language.
+    * The project uses HyperText Markup Language.
 * CSS3 
-The project uses Cascading Style Sheets.
+    * The project uses Cascading Style Sheets.
 * [Google Fonts](https://fonts.google.com/) 
-Used to style the fonts throughout the website.
+    * Used to style the fonts throughout the website.
 * [Balsamiq](https://balsamiq.com/)
-Used to create the wireframes during the design process.
+    * Used to create the wireframes during the design process.
 * GitHub
-Used for reviewing the README, adding extra files and for storing the code after being pushed from Gitpod.
+    * Used for reviewing the README, adding extra files and for storing the code after being pushed from Gitpod.
 
 **4. Testing**
 ---------------------------------
