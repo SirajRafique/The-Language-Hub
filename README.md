@@ -10,7 +10,7 @@ The primary goal of the website is for me to have an online presence and for stu
 
 You can view the deployed website [here]( https://sirajrafique.github.io/The-Language-Hub/) 
 
-![responsive](https://user-images.githubusercontent.com/80712910/119545919-3b6c7700-bd8b-11eb-9f77-c831072dc074.PNG)
+![responsive]![responsive](https://user-images.githubusercontent.com/80712910/120085486-75fa4a80-c0d0-11eb-9e5a-560f7b87f4b7.PNG)
 
 ## Table of Contents
 -----------------------------------------------------------------
