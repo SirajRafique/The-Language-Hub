@@ -82,23 +82,25 @@ h1 {
 }
 
 .hero-image {
-	width: 100vw;
-
-/* Animates zoom effect on loading page */
-
+	
+	/* Animates zoom effect on loading page */
 	animation-name: hero-zoom;
 	animation-duration: 5s;
 	animation-fill-mode: forwards;
+}
+
+.hero-image-img {
+	width: 100vw;;
+}
 
 /* Zoom for hero image */
 
 @keyframes hero-zoom {
 	from {
 		transform: scale(1);
-		}
+	}
 	to {
 		transform: scale(1.1);
-		}
 	}
 }
 
@@ -577,6 +579,7 @@ footer {
 	.logo { 
 		font-size: 200%; 
 	}
+	
 }
 
 
