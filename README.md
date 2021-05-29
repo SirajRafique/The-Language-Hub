@@ -17,14 +17,15 @@ You can view the deployed website [here]( https://sirajrafique.github.io/The-Lan
 ## Table of Contents
 
 * [1. UX](#UX) <a name="UX"></a>  
+    * [1.1 Client Stories](#clientstories) <a name="clientstories"></a>
 * [2. Features](#features) <a name="features"></a>
 * [3. Technology Used](#technologyused) <a name="technologyused"></a>
 * [4. Testing](#testing) <a name="testing"></a> 
 * [5. Bugs Discovered](#bugsdiscovered) <a name="bugsdiscovered"></a>
-* [Deployment](#deployment) <a name="deployment"></a>
-* [Credits](#credits) <a name="credits"></a>
+* [6. Deployment](#deployment) <a name="deployment"></a>
+* [7. Credits](#credits) <a name="credits"></a>
 
-**## 1. UX**
+**1. UX**
 ---------
             
 1.1 **Client Stories:** 
@@ -43,7 +44,7 @@ You can view the deployed website [here]( https://sirajrafique.github.io/The-Lan
 Wireframes created as part of the design process - View [here](https://github.com/SirajRafique/The-Language-Hub/blob/9449484987aeda6649d5cb29102aebc8848ad003/Wireframes.md)
 
 
-**## 2. Features**
+## **2. Features**
 ------------
 
 1. The simplicity of the website, the fact that it is minimalistic and I've tried to make it less crowded should enable the user to navigate with ease. 
