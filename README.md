@@ -62,6 +62,8 @@ Wireframes created as part of the design process - View [here](https://github.co
 **3. Technologies Used**
 ---------------------
 
+[*GO TO THE TOP*](#UX) <a name="UX"></a>
+
 * HTML5
 The project uses HyperText Markup Language.
 * CSS3 
@@ -76,12 +78,16 @@ Used for reviewing the README, adding extra files and for storing the code after
 **4. Testing**
 ---------------------------------
 
+[*GO TO THE TOP*](#UX) <a name="UX"></a>
+
 Testing information can be found here [Testing.md](https://github.com/SirajRafique/The-Language-Hub/blob/2ec2066115b5f0714ee6373d4d10b968a0cc2c1a/Testing.md)
 
 Including manual and client stories testing. 
 
 **5. Bugs discovered**
 --------------------------------
+
+[*GO TO THE TOP*](#UX) <a name="UX"></a>
 
 I couldn't upload a hero image succesfully - the image was to big and wouldn't fit on the page. I tried changing the code, height, width, position etc, nothing would work. I then did some research and found out from the image properties that the pixels were to large and I had to compress the image. I found pixabay useful for this because it enables you to enter the image size. I uploaded the image, entered a height and width and it seemed to work. I still don't feel confident uploading pictures but with practice i should get better.  
 
@@ -95,6 +101,8 @@ When creating a link for the find your course button the text was highlighted bl
 
 **6. Deployment** 
 --------------
+
+[*GO TO THE TOP*](#UX) <a name="UX"></a>
 
 1.	First, Log into GitHub: Where the world builds software
 2.	Once logged in, find repositories - could be on the left hand side or at the top. From the list, choose _The Language Hub_.
@@ -118,7 +126,7 @@ How to run this project locally and to clone the project into Gitpod:
 **7. Credits**
 -----------
 
-[*Go to the top](#tableofcontents) <a name="tableofcontents"></a>
+[*GO TO THE TOP*](#UX) <a name="UX"></a>
 
 **Content** 
 
