@@ -16,14 +16,13 @@ You can view the deployed website [here]( https://sirajrafique.github.io/The-Lan
 
 ## Table of Contents
 
-1. [UX](#UX) <a name="UX"></a>  
-2. Features
-3. Technology Used
-4. Testing
-5. Bugs Discovered
-6. Deployment
-7. Credits
-
+* 1. [UX](#UX) <a name="UX"></a>  
+* 2. [Features](#features) <a name="features"></a>
+* 3. Technology Used
+* 4. Testing
+* 5. Bugs Discovered
+* 6. Deployment
+* 7. Credits
 
 1. ### UX
 ---------
