@@ -117,7 +117,7 @@ How to run this project locally and to clone the project into Gitpod:
 **7. Credits**
 -----------
 
-[*GO TO THE TOP*](#contents) <a name="contents"></a>
+[*GO TO THE TOP*](#ux) <a name="ux"></a>
 
 **Content** 
 
