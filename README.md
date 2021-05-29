@@ -16,8 +16,7 @@ You can view the deployed website [here]( https://sirajrafique.github.io/The-Lan
 
 ## Table of Contents
 
-1. [UX](#UX)
-          section_title<a name="UX"></a>  
+1. [UX](#UX) <a name="UX"></a>  
 2. Features
 3. Technology Used
 4. Testing
@@ -29,7 +28,7 @@ You can view the deployed website [here]( https://sirajrafique.github.io/The-Lan
 1. ### UX
 ------
 
-1. **Client Stories:**
+    1. **Client Stories:**
 
 1. As a visitor to the site, I want to be able to navigate with ease.
 2. As a visitor, I want to be able to view the courses available. 
@@ -40,9 +39,9 @@ You can view the deployed website [here]( https://sirajrafique.github.io/The-Lan
 7. As an Interested student, I want to be able to complete a contact form. 
 8. As an Interested student, I want to be able to follow the school on social media. 
 
-2. **Mock up:**
+    2. **Mock up:**
 
-Mock ups created as part of the design process - Click [here](https://github.com/SirajRafique/The-Language-Hub/blob/9449484987aeda6649d5cb29102aebc8848ad003/Wireframes.md)
+Wireframes created as part of the design process - View [here](https://github.com/SirajRafique/The-Language-Hub/blob/9449484987aeda6649d5cb29102aebc8848ad003/Wireframes.md)
 
 
 2. ### Features
