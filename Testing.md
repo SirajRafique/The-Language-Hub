@@ -1,7 +1,7 @@
 ### Websites used to validate my code are:
 ------------------------------------------------------
 
-1. Lighthouse > to identify and fix common problems affecting my sites performance, accessibility and user experience. By right clicking the mouse choosing inspect and viewing elements I was able to view and edit my code before making permanent changes.  
+**1. Lighthouse** - To identify and fix common problems affecting my sites performance, accessibility and user experience. By right clicking the mouse choosing inspect and viewing elements I was able to view and edit my code before making permanent changes.  
 
 Desktop Performance
 
@@ -13,13 +13,13 @@ Mobile Performance
 ![mobile performance](https://user-images.githubusercontent.com/80712910/120111778-33d21700-c16b-11eb-9238-e5a994174dbb.PNG)
 
 
-2. W3C Validator 
+**2. W3C Validator** 
 
 No errors or warnings to show
 
 ![w3c validator](https://user-images.githubusercontent.com/80712910/119045176-050db100-b9b3-11eb-9bfd-326b4dee9f1b.PNG)
 
-3. Jigsaw Validator
+**3. Jigsaw Validator**
 
 CSS code passed through the official (Jigsaw) validator with no issues
 
