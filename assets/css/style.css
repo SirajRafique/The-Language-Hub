@@ -473,7 +473,7 @@ footer {
 	}
 
 	.logo { 
-		margin-left: 10;
+		margin-left: 10px;
 	}
 
 	html, body {
@@ -527,17 +527,21 @@ footer {
 		width: calc(33.333333% - 2rem);
 	  }
 
-
 }
 
 @media all and (max-width: 790px){
 
-.menu {
-	clear: left;
-	float: left;
-	margin-left: 10px;
+	.menu {
+	
+	float: right;
+	margin-right: 100px;
 	margin-bottom: 20px;
 	line-height: 25px;
+	}
+
+	.active {
+		margin-right: 300px;
+		
 	}
 
 	.col {
@@ -569,6 +573,7 @@ footer {
 		padding: 15px; 
 	}
 	
+
 }
 
 @media all and (max-width: 324px) { 

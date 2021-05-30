@@ -4,13 +4,15 @@ Websites used to validate my code are:
 
 Desktop Performance
 
-![Desktop Performance](https://user-images.githubusercontent.com/80712910/119034293-1ef4c700-b9a6-11eb-84e7-bb4d1ad37833.PNG)
+![desktop performance](https://user-images.githubusercontent.com/80712910/120111851-6c71f080-c16b-11eb-9602-492d9c68fa43.PNG)
+
 
 Mobile Performance
 
-![Mobile performance](https://user-images.githubusercontent.com/80712910/119034873-cd007100-b9a6-11eb-8af8-7962cfbbbf98.PNG)
+![mobile performance](https://user-images.githubusercontent.com/80712910/120111778-33d21700-c16b-11eb-9238-e5a994174dbb.PNG)
 
-The performance on the mobile is 82 because I have some issues with the images, they are static. I'm aware of this and trying to figure out how I can change this. I think the images are not responsive and absolute. 
+
+
 
 2. W3C Validator 
 
