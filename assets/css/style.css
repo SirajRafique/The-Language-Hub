@@ -523,6 +523,11 @@ footer {
 		font-size: 40px; 
 	}
 	
+	.col {
+		width: calc(33.333333% - 2rem);
+	  }
+
+
 }
 
 @media all and (max-width: 790px){
@@ -530,10 +535,20 @@ footer {
 .menu {
 	clear: left;
 	float: left;
-	margin-left: 30px;
+	margin-left: 10px;
 	margin-bottom: 20px;
 	line-height: 25px;
 	}
+
+	.col {
+		width: 100%;
+		}
+
+	.wrapper {
+		float: left;
+		padding-top: 10px;
+		}
+
 }
 
 @media all and (max-width: 500px){
@@ -553,10 +568,10 @@ footer {
 		height: initial; 
 		padding: 15px; 
 	}
-
+	
 }
 
-@media all and (min-width: 324px) { 
+@media all and (max-width: 324px) { 
 	
 	.logo { 
 		font-size: 250%; 
@@ -580,7 +595,7 @@ footer {
 		top: unset;
 		bottom: 30px;
 	}
-
+	
 }
 
 
