@@ -15,13 +15,13 @@ You can view the deployed website [here]( https://sirajrafique.github.io/The-Lan
 ## Table of Contents
 -----------------------------------------------------------------
 
-* [1. UX](#UX) 
-    * [1.1 Client Stories](#clientstories) 
-    * [1.2 Mock Up](#mockup) 
-* [2. Features](#features) 
-* [3. Technology Used](#technologyused) 
-* [4. Testing](#testing) 
-* [5. Bugs Discovered](#bugsdiscovered) 
+* [1. UX](#UX) <a name="UX"></a>  
+    * [1.1 Client Stories](#clientstories) <a name="clientstories"></a>
+    * [1.2 Mock Up](#mockup) <a name="mockup"></a>
+* [2. Features](#features) <a name="features"></a>
+* [3. Technology Used](#technologyused) <a name="technologyused"></a>
+* [4. Testing](#testing) <a name="testing"></a> 
+* [5. Bugs Discovered](#bugsdiscovered) <a name="bugsdiscovered"></a>
 * [6. Deployment](#deployment) 
 * [7. Credits](#credits) 
 
@@ -115,6 +115,7 @@ Below is another issue which I fixed by resizing the image.
 
 When creating a link for the find your course button the text was highlighted blue - found out that I already had a class named active so I had to rename the class and then add to css and style. 
 
+<a name="deployment"></a>
 **6. Deployment** 
 --------------
 
@@ -139,7 +140,8 @@ How to run this project locally and to clone the project into Gitpod:
 7.	Click the green Gitpod button top right-hand corner
 8.	This will trigger a new Gitpod workspace to be created from the code where you can work locally
 
-**7. Credits**
+<a name="credits"></a>
+**7. Credits** 
 -----------
 
 [*GO TO THE TOP*](#UX) <a name="UX"></a>
