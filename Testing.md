@@ -1,4 +1,5 @@
-Websites used to validate my code are:
+### Websites used to validate my code are:
+------------------------------------------------------
 
 1. Lighthouse > to identify and fix common problems affecting my sites performance, accessibility and user experience. By right clicking the mouse choosing inspect and viewing elements I was able to view and edit my code before making permanent changes.  
 
@@ -25,43 +26,8 @@ CSS code passed through the official (Jigsaw) validator with no issues
 ![jigsaw validation](https://user-images.githubusercontent.com/80712910/119045836-df34dc00-b9b3-11eb-9430-f8728334f3b0.PNG)
 
 
-
-Checking my user stories
-
-1. As a visitor to the site, I want to be able to navigate with ease.
-
-![Navigation links](https://user-images.githubusercontent.com/80712910/119036001-27e69800-b9a8-11eb-9226-25eacaaa07af.PNG)
-
-2. As a visitor, I want to be able to view the courses available. 
-
-They can do this by clicking on the courses tab.
-
-3. As a visitor, I want to be able to feel confident I'm in the right hands when it comes to learning English.
-
-![testimonial](https://user-images.githubusercontent.com/80712910/119036437-a5120d00-b9a8-11eb-855d-6f2b4d1db98f.PNG)
-
-4. As a potential student, I want to know what other students think of the school and teaching. 
-
-See above and social media links below
-
-5. As a potential student, I want to be able to book a course, view times and or make an enquiry. 
-
-![book a course](https://user-images.githubusercontent.com/80712910/120112157-924bc500-c16c-11eb-9343-254e54355646.PNG)
-
-6. As an Interested student, I want to be able to Immeadiately book a course. 
-
-See above.
-
-7. As an Interested student, I want to be able to complete a contact form. 
-
-See above.
-
-8. As an Interested student, I want to be able to follow the school on social media. 
-
-![social media links](https://user-images.githubusercontent.com/80712910/119037048-6761b400-b9a9-11eb-98c1-fb63ba1e6f63.PNG)
-
-
 ## Manual Testing 
+-----------------------------------------------------------
 
 **All Pages:**
 
@@ -97,3 +63,41 @@ See above.
 
 - If I don't complete all fields and I try to book, I get an error message "Please fill in this field". It worked as expected. 
 - If I don't use an @ in the email address an error message pops up. It worked as expected. 
+
+
+
+### Checking my user stories
+-------------------------------------------------------------------------------
+
+1. As a visitor to the site, I want to be able to navigate with ease.
+
+![Navigation links](https://user-images.githubusercontent.com/80712910/119036001-27e69800-b9a8-11eb-9226-25eacaaa07af.PNG)
+
+2. As a visitor, I want to be able to view the courses available. 
+
+They can do this by clicking on the courses tab.
+
+3. As a visitor, I want to be able to feel confident I'm in the right hands when it comes to learning English.
+
+![testimonial](https://user-images.githubusercontent.com/80712910/119036437-a5120d00-b9a8-11eb-855d-6f2b4d1db98f.PNG)
+
+4. As a potential student, I want to know what other students think of the school and teaching. 
+
+See above and social media links below
+
+5. As a potential student, I want to be able to book a course, view times and or make an enquiry. 
+
+![book a course](https://user-images.githubusercontent.com/80712910/120112157-924bc500-c16c-11eb-9343-254e54355646.PNG)
+
+6. As an Interested student, I want to be able to Immeadiately book a course. 
+
+See above.
+
+7. As an Interested student, I want to be able to complete a contact form. 
+
+See above.
+
+8. As an Interested student, I want to be able to follow the school on social media. 
+
+![social media links](https://user-images.githubusercontent.com/80712910/119037048-6761b400-b9a9-11eb-98c1-fb63ba1e6f63.PNG)
+
