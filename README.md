@@ -8,7 +8,7 @@ Welcome to my first project. This is a website for people of all ages looking to
 
 The primary goal of the website is for me to have an online presence and for students to view the available courses and get in touch.  
 
-You can view the deployed website [here]( https://sirajrafique.github.io/The-Language-Hub/) 
+You can view the deployed website [here](https://sirajrafique.github.io/The-Language-Hub/) 
 
 ![responsive](https://user-images.githubusercontent.com/80712910/120085486-75fa4a80-c0d0-11eb-9e5a-560f7b87f4b7.PNG)
 
