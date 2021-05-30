@@ -98,7 +98,7 @@ This feature was chosen to make it easier for users to view the courses on small
 
 [*GO TO THE TOP*](#UX) <a name="UX"></a>
 
-Testing information can be found here [Testing.md](https://github.com/SirajRafique/The-Language-Hub/blob/2ec2066115b5f0714ee6373d4d10b968a0cc2c1a/Testing.md)
+Testing information can be found here [Testing.md](https://github.com/SirajRafique/The-Language-Hub/blob/master/Testing.md)
 
 Including manual and client stories testing. 
 

@@ -12,8 +12,6 @@ Mobile Performance
 ![mobile performance](https://user-images.githubusercontent.com/80712910/120111778-33d21700-c16b-11eb-9238-e5a994174dbb.PNG)
 
 
-
-
 2. W3C Validator 
 
 No errors or warnings to show
@@ -48,17 +46,15 @@ See above and social media links below
 
 5. As a potential student, I want to be able to book a course, view times and or make an enquiry. 
 
-![sign up](https://user-images.githubusercontent.com/80712910/119036696-f15d4d00-b9a8-11eb-8763-734acc80e1c2.PNG)
-
+![book a course](https://user-images.githubusercontent.com/80712910/120112157-924bc500-c16c-11eb-9343-254e54355646.PNG)
 
 6. As an Interested student, I want to be able to Immeadiately book a course. 
 
-![book now](https://user-images.githubusercontent.com/80712910/119036683-eaced580-b9a8-11eb-9ed2-c9b6dcdd2164.PNG)
+See above.
 
 7. As an Interested student, I want to be able to complete a contact form. 
 
-
-![sign up](https://user-images.githubusercontent.com/80712910/119036696-f15d4d00-b9a8-11eb-8763-734acc80e1c2.PNG)
+See above.
 
 8. As an Interested student, I want to be able to follow the school on social media. 
 
