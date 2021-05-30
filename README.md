@@ -107,9 +107,7 @@ Including manual and client stories testing.
 
 [*GO TO THE TOP*](#UX) <a name="UX"></a>
 
-I couldn't upload a hero image succesfully - the image was to big and wouldn't fit on the page. I tried changing the code, height, width, position etc, nothing would work. I then did some research and found out from the image properties that the pixels were to large and I had to compress the image. I found pixabay useful for this because it enables you to enter the image size. I uploaded the image, entered a height and width and it seemed to work. I still don't feel confident uploading pictures but with practice i should get better.  
-
-Still having trouble with pictures. The Hero Image is static and not absolute - there is an issue with the responsiveness. I can't get the image to shrink when using a smaller screen. 
+I couldn't upload a hero image succesfully - the image was to big and wouldn't fit on the page. I tried changing the code, height, width, position etc, nothing would work. I then did some research and found out from the image properties that the pixels were to large and I had to compress the image. I found pixabay useful for this because it enables you to enter the image size. I uploaded the image, entered a height and width and it seemed to work. 
 
 Below is another issue which I fixed by resizing the image. 
 
