@@ -51,13 +51,13 @@ Wireframes created as part of the design process - View [here](https://github.co
 **2. Features**
 ------------
 
-### All Web Pages:
+**All Web Pages:**
 
 - Every page has a logo on the top left, telling the user what website they are viewing. They can click on the logo on any page and it will revert them back to the homepage. On the top right, the pages have a nav bar with the following Home/Courses/Sign-Up and they all have a hover effect improving the users experience. When somoene moves their mouse over Home, Courses or Menu, the mouse turns into a pointer and it will underline the option in blue, highlighting what page they are about to enter. The nav link also remains underlined notifying the user what page they are currently on.
 
 - All four social media links, YouTube, FaceBook, Twitter and Instagram have been placed at the bottom of the pages inside a footer. The individual icons once clicked, open up into a new tab; supporting user behaviour through usability. 
 
-### Home Page
+**Home Page:**
 
 - A hero image of a teacher with cover text that zooms out. It's a connotative image to present to the user that they are on a Educational website. The text instantly tells the user why the Language Hub. 
 
@@ -65,7 +65,7 @@ Wireframes created as part of the design process - View [here](https://github.co
 
 - A testimonial section for users to read what other students have said about us. To avoid having just text and to improve user experience a picture of a person has been added.
 
-### Courses Page
+**Courses Page:**
 
 -  A list of courses on a flip card feature to provide good interface aesthetics and enhance usability. The choice of colors represent the brand and were chosen for better visual experience for the user. When the user hovers over the course, the card flips giving the user more information about that course, the prices, dates and what to do next. 
 This feature was chosen to make it easier for users to view the courses on smaller devices all the while still being aesthetically pleasing.  
