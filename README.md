@@ -15,16 +15,17 @@ You can view the deployed website [here]( https://sirajrafique.github.io/The-Lan
 ## Table of Contents
 -----------------------------------------------------------------
 
-* [1. UX](#UX) <a name="UX"></a>  
-    * [1.1 Client Stories](#clientstories) <a name="clientstories"></a>
-    * [1.2 Mock Up](#mockup) <a name="mockup"></a>
-* [2. Features](#features) <a name="features"></a>
-* [3. Technology Used](#technologyused) <a name="technologyused"></a>
-* [4. Testing](#testing) <a name="testing"></a> 
-* [5. Bugs Discovered](#bugsdiscovered) <a name="bugsdiscovered"></a>
+* [1. UX](#UX) 
+    * [1.1 Client Stories](#clientstories) 
+    * [1.2 Mock Up](#mockup) 
+* [2. Features](#features) 
+* [3. Technology Used](#technologyused) 
+* [4. Testing](#testing) 
+* [5. Bugs Discovered](#bugsdiscovered) 
 * [6. Deployment](#deployment) 
 * [7. Credits](#credits) 
 
+<a name="UX"></a>  
 **1. UX**
 ---------
 
@@ -33,7 +34,8 @@ I received inspiration for this project from the mini project Love Running and m
 The website has been kept simple to allow for enhanced usability; to allow the user to navigate with ease and to quickly find and view the available courses and sign up page. 
 
 The website has been made desirable and responsive for all device sizes; giving the user the best experience all-round. 
-            
+
+ <a name="clientstories"></a>           
 **1.1 Client Stories:** 
 
 1. As a visitor to the site, I want to be able to navigate with ease.
@@ -45,11 +47,12 @@ The website has been made desirable and responsive for all device sizes; giving 
 7. As an Interested student, I want to be able to complete a contact form. 
 8. As an Interested student, I want to be able to follow the school on social media. 
 
+<a name="mockup"></a>
 **1.2 Mock up:**
 
 Wireframes created as part of the design process - View [here](https://github.com/SirajRafique/The-Language-Hub/blob/9449484987aeda6649d5cb29102aebc8848ad003/Wireframes.md)
 
-
+<a name="features"></a>
 **2. Features**
 ------------
 
@@ -76,7 +79,7 @@ This feature was chosen to make it easier for users to view the courses on small
 
 - A picture of a woman on a laptop signing up for a course for better visual experince. A user friendly booking form alongside the picture for users to easily book or enquire about a course. The single column layout makes it easier for the user to complete the form and the questions are in a logical and intuitive order. 
 
-
+<a name="technologyused"></a>
 **3. Technologies Used**
 ---------------------
 
@@ -93,6 +96,7 @@ This feature was chosen to make it easier for users to view the courses on small
 * GitHub
     * Used for reviewing the README, adding extra files and for storing the code after being pushed from Gitpod.
 
+<a name="testing"></a> 
 **4. Testing**
 ---------------------------------
 
@@ -102,7 +106,8 @@ Testing information can be found here [Testing.md](https://github.com/SirajRafiq
 
 Including manual and client stories testing. 
 
-**5. Bugs discovered**
+<a name="bugsdiscovered"></a>
+**5. Bugs discovered** 
 --------------------------------
 
 [*GO TO THE TOP*](#UX) <a name="UX"></a>
