@@ -63,12 +63,39 @@ See above and social media links below
 ![social media links](https://user-images.githubusercontent.com/80712910/119037048-6761b400-b9a9-11eb-98c1-fb63ba1e6f63.PNG)
 
 
-Contact form:
+## Manual Testing 
 
-Error message when trying to submit form
+**All Pages:**
 
-![empty form](https://user-images.githubusercontent.com/80712910/119037242-a132ba80-b9a9-11eb-99a3-bb29ac3e2aa1.PNG)
+- Navigation Bar:
+    - Home - When I click on Home I am redirected to the Home Page and the text remains underlined in blue. The link and hover effect worked as expected. 
+    - Courses - When I clicking on Courses I am directed to the Courses page. The text is underlined in blue. The link and hover effect worked as expected. 
+    - Sign Up - When clicking on Sign Up, I am directed to the Sign Up page and the text is underlined in blue. The link and hover effect worked as expected. 
+    - The Language Hub Logo - When click on the logo on the Home page the page refreshes. When I click on the logo on the courses and sign up page I am redirected to the       Homepage. The Home button on the nav bar is underlined in blue. The link worked as expected. 
+    - Text - I checked the text sizes and fonts on all the pages. I also checked for grammar/spelling mistakes. 
+    - Media - I checked that all the Images load properly on all the pages and where there is a zoom effect that it works. It worked as expected. 
+    - Responsiveness - I checked if all the pages and elements were responsive using chrome Inspect, viewing each page on an Iphone, Ipad and other devices. It worked as expected. 
+    Footer - When selecting each of the four icons, YouTube, Twitter, Instagram and Facebook I am redirected to the relevant websites on a new tab. It worked as expected. 
 
-Email error message
+**Home Page** 
 
-![email error](https://user-images.githubusercontent.com/80712910/119037532-fec70700-b9a9-11eb-98cd-0c0fcb8fea18.PNG)
+- Hero Image - Loads and zooms as expected on all devices. 
+- Why Learn English text visible on desktop and adjusts in size depending on device. Worked as expected. 
+- Find a course that suits you button - zooms out when you hover over it and if I click on it I am redirected to the sign up page. Works on all devices. Worked as expected. 
+- Testimonial - text and image are clear and adjust accordingly. Worked as expected. 
+
+**Courses Page**
+
+- Flip Cards - When I run my mouse over the Individual course, it flips and shows me the information/text. If I move my mouse over a different course it returns to front facing only viewing the course name. The colors are as expected. The cards move as the screen size shrinks. On a mobile devide they are aligned as single cards below each other. It worked as expected. 
+
+**Sign Up Page** 
+
+- I tested each field by entering text, number, email and message. It worked as expected. 
+- If alll fields are not complteted there is an error message. It worked as expected. 
+- The drop down choose a course field worked as expected. 
+- The submit button works and redirects you to code institutes formdump site. It worked as expected. See below.
+
+![Form](https://user-images.githubusercontent.com/80712910/120110921-8f020a80-c167-11eb-9b13-ede78a50b183.PNG)
+
+- If I don't complete all fields and I try to book, I get an error message "Please fill in this field". It worked as expected. 
+- If I don't use an @ in the email address an error message pops up. It worked as expected. 

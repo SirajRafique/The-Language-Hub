@@ -28,9 +28,11 @@ You can view the deployed website [here]( https://sirajrafique.github.io/The-Lan
 **1. UX**
 ---------
 
-I received inspiration for this project from the mini project Love Running and my current part-time work as an English Language teacher. 
+I received inspiration for this project from the mini project Love Running and my current part-time work as an English Language Teacher. 
 
-The website has been kept simple to allow the user to navigate with ease and to quickly find and view the available courses and sign up page. 
+The website has been kept simple to allow for enhanced usability; to allow the user to navigate with ease and to quickly find and view the available courses and sign up page. 
+
+The website has been made desirable and responsive for all device sizes; giving the user the best experience all-round. 
             
 **1.1 Client Stories:** 
 
