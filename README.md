@@ -51,14 +51,28 @@ Wireframes created as part of the design process - View [here](https://github.co
 **2. Features**
 ------------
 
-1. The simplicity of the website, the fact that it is minimalistic and I've tried to make it less crowded should enable the user to navigate with ease. 
-2. The user is quickly able to view the courses by pressing the courses tab on the top right hand corner which will lead them to a new page and display the courses.
-3. A short description on the homepage as to why they should choose us should make them feel confident in using our services. 
-4. Having a testimonial on the homepage towards the bottom allows the students to read and see what other students have said about the language centre. 
-5. The user can book their course via the book button on the hero image or navigate to the booking page by clicking sign up on the top right. They can also view the courses tab which will bring up all the courses. They can make an inquiry by completing the contact form on the sign up page.
-6. The user can immeadiately navigate to the booking page via the book button on the hero image.  
-7. Contact form is available on the sign up page.
-8. There are social media links on each page at the bottom which the user can click on.  
+### All Web Pages:
+
+- Every page has a logo on the top left, telling the user what website they are viewing. They can click on the logo on any page and it will revert them back to the homepage. On the top right, the pages have a nav bar with the following Home/Courses/Sign-Up and they all have a hover effect improving the users experience. When somoene moves their mouse over Home, Courses or Menu, the mouse turns into a pointer and it will underline the option in blue, highlighting what page they are about to enter. The nav link also remains underlined notifying the user what page they are currently on.
+
+- All four social media links, YouTube, FaceBook, Twitter and Instagram have been placed at the bottom of the pages inside a footer. The individual icons once clicked, open up into a new tab; supporting user behaviour through usability. 
+
+### Home Page
+
+- A hero image of a teacher with cover text that zooms out. It's a connotative image to present to the user that they are on a Educational website. The text instantly tells the user why the Language Hub. 
+
+- Below the hero image is some text, a short summary telling the user why they should study with us; in a bullet pointed format. A simple and straight to the point list with a useful hover button feature that leads them to the sign up page. To the right is an image of students on their laptops, smiling and happy - with the intention to make the user feel comfortable and to let them know that we are a friendly language institute. 
+
+- A testimonial section for users to read what other students have said about us. To avoid having just text and to improve user experience a picture of a person has been added.
+
+### Courses Page
+
+-  A list of courses on a flip card feature to provide good interface aesthetics and enhance usability. The choice of colors represent the brand and were chosen for better visual experience for the user. When the user hovers over the course, the card flips giving the user more information about that course, the prices, dates and what to do next. 
+This feature was chosen to make it easier for users to view the courses on smaller devices all the while still being aesthetically pleasing.  
+
+**Sign Up Page**
+
+- A picture of a woman on a laptop signing up for a course for better visual experince. A user friendly booking form alongside the picture for users to easily book or enquire about a course. The single column layout makes it easier for the user to complete the form and the questions are in a logical and intuitive order. 
 
 
 **3. Technologies Used**
