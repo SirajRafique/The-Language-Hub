@@ -30,7 +30,7 @@ You can view the deployed website [here](https://sirajrafique.github.io/The-Lang
 **1. UX**
 ---------
 
-I received inspiration for this project from the mini project Love Running and my current part-time work as an English Language Teacher. 
+I received Inspiration for this project from the mini project Love Running and my current part-time work as an English Language Teacher. 
 
 The website has been kept simple to allow for enhanced usability; to allow the user to navigate with ease and to quickly find and view the available courses and sign up page. 
 
@@ -122,7 +122,7 @@ I fixed this by displaying the elements as a block when using smaller devices.
 
 ![issue](https://user-images.githubusercontent.com/80712910/120207733-b074fc00-c224-11eb-813e-9a0c91be53be.PNG)
 
-This is a bug that I didn't get round to fixing as I ran out of time. It only this section on the Home Page when viewed on an Ipad pro.
+This is a bug that I didn't get round to fixing as I ran out of time. It's only this section on the Home Page and only when viewed on an Ipad pro.
 
 ![bug](https://user-images.githubusercontent.com/80712910/120206017-91756a80-c222-11eb-9952-e5d07f43f013.PNG)
 
