@@ -103,12 +103,12 @@ This feature was chosen to make it easier for users to view the courses on small
 
 [*GO TO THE TOP*](#UX) <a name="UX"></a>
 
-Testing information can be found here [Testing.md](https://github.com/SirajRafique/The-Language-Hub/blob/master/Testing.md)
+Testing Information can be found here [Testing.md](https://github.com/SirajRafique/The-Language-Hub/blob/master/Testing.md)
 
 Including manual and client stories testing. 
 
 <a name="bugsdiscovered"></a>
-**5. Bugs discovered** 
+**5. Bugs Discovered** 
 --------------------------------
 
 [*GO TO THE TOP*](#UX) <a name="UX"></a>
@@ -118,11 +118,11 @@ I couldn't upload the hero Image succesfully - the Image was far too big and wou
 When creating a link for the 'find your course' button on the HomePage the text was highlighted blue - I found out that I already had a class named active so I had to rename the class and then add to css and style. 
 
 Another bug that I discovered was when viewing the pages on smaller devicves the .menu nav bar was being pushed onto another line. See below. 
-I fixed this by displaying the elements as a block. 
+I fixed this by displaying the elements as a block when using smaller devices. 
 
 ![issue](https://user-images.githubusercontent.com/80712910/120207733-b074fc00-c224-11eb-813e-9a0c91be53be.PNG)
 
-This is a bug that I didn't get round to fixing as I ran out of time. It only occurs when you view this page on an Ipad pro. 
+This is a bug that I didn't get round to fixing as I ran out of time. It only this section on the Home Page when viewed on an Ipad pro.
 
 ![bug](https://user-images.githubusercontent.com/80712910/120206017-91756a80-c222-11eb-9952-e5d07f43f013.PNG)
 
