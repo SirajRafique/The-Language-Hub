@@ -448,6 +448,24 @@ footer {
 		margin: auto; 
 	}
 
+	.image-students {
+		margin-bottom: 50px;
+	}
+
+	.right-about2 {
+		max-width: 70%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.left-about2 {
+		max-width: 400px;
+		margin: 20px auto; 
+		float: none; 
+	}
+
+
 }
 
 
@@ -482,6 +500,23 @@ footer {
 		overflow-x: hidden; 
 	}
 
+	.image-students {
+		margin-bottom: 50px;
+	}
+
+	.right-about2 {
+		
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.left-about2 {
+		max-width: 300px;
+		margin: 20px auto; 
+		float: none; 
+	}
+
 }
 
 
@@ -497,6 +532,11 @@ footer {
 		max-width: 300px;
 		margin: 20px auto; 
 		float: none; 
+	}
+
+	.right-about2{
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.cover-text {
