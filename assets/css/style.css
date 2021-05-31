@@ -481,6 +481,7 @@ footer {
 	html, body {
 		overflow-x: hidden; 
 	}
+
 }
 
 
@@ -575,7 +576,6 @@ footer {
 		padding: 15px; 
 	}
 	
-
 }
 
 @media all and (max-width: 324px) { 
@@ -605,5 +605,87 @@ footer {
 	
 }
 
+  @media (min-width: 992px) {
+	.menu {
+	  display: flex;
+	  float: right;
+	}
+	.menu li {
+	  float: none;
+	}
+  }
+  
+  @media (max-width: 991px) {
+	header {
+	  display: flex;
+	  width: 100%;
+	  align-items: center;
+	  justify-content: space-between;
+	  position: relative;
+	  flex-direction: column;
+	}
+  
+	header .logo {
+	  margin-left: 1rem;
+	  font-size: 2.5rem;
+	}
+  
+	header nav {
+	  top: 100%;
+	  left: 0;
+	  right: 0;
+	  z-index: 1001;
+	  background: white;
+	  transition: all 0.3s;
+	  width: 100%;
+	}
+  
+	.menu {
+	  margin: 0 auto;
+	  float: none;
+	  clear: both;
+	  line-height: 1;
+	}
+  
+	.menu li {
+	  float: none;
+	  margin: 0 auto;
+	}
+  
+	.menu li a {
+	  display: block;
+	  padding: 0.7rem;
+	  text-align: center;
+	  background: #f5f5f5;
+	}
+  
+	.menu li a:hover {
+	  border: none;
+	}
+  
+	.menu li a.active {
+	  border: none;
+	  background: #e3e3e3;
+	}
+  }
+  
+  @media (max-width: 790px) {
+	.wrapper {
+	  float: none;
+	}
+  }
+  
+  @media (max-width: 500px) {
+	.cover-text {
+	  left: 0;
+	  right: 0;
+	  margin: 0 auto;
+	  height: auto;
+	  bottom: unset;
+	  top: 50%;
+	  transform: translateY(-50%);
+	}
+  }
+  
 
 
