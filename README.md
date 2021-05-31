@@ -23,7 +23,8 @@ You can view the deployed website [here](https://sirajrafique.github.io/The-Lang
 * [4. Testing](#testing) 
 * [5. Bugs Discovered](#bugsdiscovered) 
 * [6. Deployment](#deployment) 
-* [7. Credits](#credits) 
+* [7. End Product](#EndProduct)
+* [8. Credits](#credits) 
 
 <a name="UX"></a>  
 **1. UX**
@@ -145,8 +146,40 @@ How to run this project locally and to clone the project into Gitpod:
 7.	Click the green Gitpod button top right-hand corner
 8.	This will trigger a new Gitpod workspace to be created from the code where you can work locally
 
+<a name="End Product"></a>
+**7. End Product** 
+-----------
+
+Screenshots of the Home Page:
+
+![hero-image](https://user-images.githubusercontent.com/80712910/120204065-4e19fc80-c220-11eb-9408-a9a67b49854b.PNG)
+
+![why us + testimonial](https://user-images.githubusercontent.com/80712910/120204076-51ad8380-c220-11eb-942a-9d7c44e4e1cb.PNG)
+
+Screenshot of the Courses Page:
+
+![courses page](https://user-images.githubusercontent.com/80712910/120204084-540fdd80-c220-11eb-8804-33ca8a0d4a51.PNG)
+
+Screenshot of the Sign Up Page:
+
+![sign up page](https://user-images.githubusercontent.com/80712910/120204092-55d9a100-c220-11eb-8241-ca3e05d168b0.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a name="credits"></a>
-**7. Credits** 
+**8. Credits** 
 -----------
 
 [*GO TO THE TOP*](#UX) <a name="UX"></a>
