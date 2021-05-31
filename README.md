@@ -150,6 +150,9 @@ How to run this project locally and to clone the project into Gitpod:
 **7. End Product** 
 -----------
 
+[*GO TO THE TOP*](#UX) <a name="UX"></a>
+
+
 **Screenshots of the Home Page:**
 
 ![hero-image](https://user-images.githubusercontent.com/80712910/120204065-4e19fc80-c220-11eb-9408-a9a67b49854b.PNG)
