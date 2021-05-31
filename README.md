@@ -113,13 +113,19 @@ Including manual and client stories testing.
 
 [*GO TO THE TOP*](#UX) <a name="UX"></a>
 
-I couldn't upload a hero image succesfully - the image was to big and wouldn't fit on the page. I tried changing the code, height, width, position etc, nothing would work. I then did some research and found out from the image properties that the pixels were to large and I had to compress the image. I found pixabay useful for this because it enables you to enter the image size. I uploaded the image, entered a height and width and it seemed to work. 
+I couldn't upload the hero Image succesfully - the Image was far too big and wouldn't fit on the page. I tried changing the code - height, width, position etc, nothing would work. I then did some research and found out from the Image properties that the pixels were to large and I had to compress the Image. I found pixabay useful for this because it enables you to enter the Image size. I uploaded the image, entered a height and width and it seemed to work. 
 
-Below is another issue which I fixed by resizing the image. 
+When creating a link for the 'find your course' button on the HomePage the text was highlighted blue - I found out that I already had a class named active so I had to rename the class and then add to css and style. 
 
-![footer bug](https://user-images.githubusercontent.com/80712910/119226967-a277fa80-bb03-11eb-82e1-cbcfc56b374a.PNG)
+Another bug that I discovered was when viewing the pages on smaller devicves the .menu nav bar was being pushed onto another line. See below. 
+I fixed this by displaying the elements as a block. 
 
-When creating a link for the find your course button the text was highlighted blue - found out that I already had a class named active so I had to rename the class and then add to css and style. 
+![issue](https://user-images.githubusercontent.com/80712910/120207733-b074fc00-c224-11eb-813e-9a0c91be53be.PNG)
+
+This is a bug that I didn't get round to fixing as I ran out of time. It only occurs when you view this page on an Ipad pro. 
+
+![bug](https://user-images.githubusercontent.com/80712910/120206017-91756a80-c222-11eb-9952-e5d07f43f013.PNG)
+
 
 <a name="deployment"></a>
 **6. Deployment** 
